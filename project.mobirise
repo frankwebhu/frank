@@ -1,0 +1,946 @@
+{
+  "settings": {
+    "name": "Site-07-17_1812",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#62cab1",
+        "#6ca4cf"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.7.9",
+    "siteFonts": [],
+    "uniqCompNum": 35,
+    "versionPublish": "4.7.9",
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#1f8068"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#1f8068"
+            },
+            ".link, .dropdown-item": {
+              "color": "#1f8068",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#6ca4cf"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#6ca4cf"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#1f8068"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#1f8068",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#6ca4cf"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#6ca4cf!important"
+            },
+            ".navbar-caption": {
+              "font-size": "18px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#1f8068",
+            "fontHoverColor": "#6ca4cf"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Kezdőlap</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"index.html#pricing-table2-v\">Mennyibe kerül?</a></li>",
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "rocket",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true,
+              "color": "#5aac98"
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-empty\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">FrankWeb.hu</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class-bg-color=\"_params.transparent\" mbr-class-transparent=\"_params.transparent\" mbr-class-navbar-fixed-top=\"_params.sticky\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div mbr-if=\"_params.logo | else _params.showBrand\" class=\"mbr-table-cell logo\">\n\n                    <div class=\"navbar-brand\">\n                        <span mbr-if=\"_params.logo\" mbr-media=\"logo\" class=\"navbar-logo\"></span>\n                        <span mbr-if=\"_params.showBrand\" data-app-edit=\"buttons\" mbr-html=\"brand\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></span>\n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell text\">\n\n                    <button class=\"navbar-toggler pull-xs-right\" mbr-class-hidden-md-up=\"_params.collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul data-app-edit=\"menu\" mbr-class-hide-buttons=\"_params.hideButtons\"\n                    mbr-class-show-buttons=\"1 | unless _params.hideButtons\" mbr-html=\"items\" class=\"nav-dropdown collapse pull-xs-right nav navbar-nav\" mbr-class-navbar-toggleable-sm=\"_params.collapsed\" \n                    mbr-class-navbar-toggleable-xl=\"1 | unless _params.collapsed\" id=\"exCollapsingNavbar\"></ul>\n\n                    <button hidden class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_name": "menu1",
+          "_anchor": "menu1-0"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "center",
+            "showArrow": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1276.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#bdb39a",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#264a54",
+            "overlayOpacity": "0.2"
+          },
+          "title": "<b>Weboldal készítés elérhető áron!</b>",
+          "text": "A weboldal az egyik legolcsóbb és leghatékonyabb hirdetési forma, amely Profi Üzletkötőként Önállóan és Eredményesen Működik.&nbsp;A modern üzleti élet egyik alapköve a webes jelenlét, közhely, de ma már mindenki az Interneten keres szolgáltatást, szolgáltatót, vagy egyszerűen csak információt. Ezért lényeges a célnak megfelelő weblap készítése, a megfelelő webdesign. Egyedi weboldalak már bruttó 29.990 Ft-tól elérhetőek.<br>Honlapja számítógépen, tableten és okostelefonon is megfelelően fog megjelenni.<br><br>Honlap készítés és karbantartás.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#pricing-table2-v\" data-toolbar=\"-mbrBtnMove\">Érdekel</a><a data-app-btn=\"true\" class=\"btn btn-md btn-white\" href=\"index.html#msg-box4-5\" data-toolbar=\"-mbrBtnMove\">Tovább olvasom</a>",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section mbr-section-hero mbr-section-full header4\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-class-mbr-section-with-arrow=\"_params.showArrow\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-md-10\"\n                     mbr-class-col-md-offset-1=\"_params.contentAlign | eq 'center'\"\n                     mbr-class-col-md-offset-2=\"_params.contentAlign | eq 'right'\"\n                     mbr-class-text-xs-center=\"_params.contentAlign | eq 'center'\"\n                     mbr-class-text-xs-right=\"_params.contentAlign | eq 'right'\">\n\n                    <h1 class=\"mbr-section-title display-1 heading-title\"\n                        mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".heading-title\"\n                        data-app-placeholder=\"Type Title\">\n                    </h1>\n                    <p class=\"mbr-section-subtitle sub-2 heading-text\"\n                       mbr-if=\"_params.showText\"\n                       mbr-html=\"text\"\n                       data-app-edit=\"content\"\n                       data-app-selector=\".heading-text\"\n                       data-app-placeholder=\"Type Text\">\n                    </p>\n                    <div class=\"mbr-section-btn\"\n                         mbr-if=\"_params.showButtons | if buttons\"\n                         mbr-html=\"buttons\"\n                         data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove\">\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"container-fluid\">\n            <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\">\n                <div class=\"row\" mbr-if=\"_params.showFeatures\">\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 0\">\n                        <div class=\"card row\">\n                            <div class=\"card-img col-xs-3\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media1\"></div>\n                            <div class=\"card-box col-xs-9\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title1\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text1\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button1\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 1\">\n                        <div class=\"card row\">\n                            <div class=\"card-img col-xs-3\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media2\"></div>\n                            <div class=\"card-box col-xs-9\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title2\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text2\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button2\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 2\">\n                        <div class=\"card row\">\n                            <div class=\"card-img col-xs-3\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media3\"></div>\n                            <div class=\"card-box col-xs-9\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title3\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text3\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button3\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 3\">\n                        <div class=\"card row\">\n                            <div class=\"card-img col-xs-3\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media4\"></div>\n                            <div class=\"card-box col-xs-9\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title4\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text4\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button4\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n    </div>\n\n    <div mbr-if=\"_params.showArrow\" class=\"mbr-arrow mbr-arrow-floating\" aria-hidden=\"true\"><a mbr-on-click=\"next\" href=\"#next\"><i class=\"mbri-down\"></i></a></div>\n\n</section>",
+          "_name": "header4",
+          "_anchor": "header4-2",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "color": "#fffffd"
+            },
+            ".heading-title B": {
+              "color": "#fffffd"
+            }
+          }
+        },
+        {
+          "_styles": {
+            "H1": {
+              "color": "#434343"
+            },
+            "P": {
+              "color": "#434343"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "inverse": true,
+            "showIcons": true,
+            "iconsBorder": true,
+            "iconsColor": "#434343",
+            "iconsNumber": "three",
+            "imageSize": 50,
+            "containerColor1": "#1cb4a9",
+            "containerColor2": "#bef50a",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "title": "Reszponzív kialakítás",
+          "text1": "Weboldalaink 100% mobilbarát weboldalak!",
+          "text2": "Letisztult, profi webdesign, ami nem csak szép, de eredményes &nbsp;és átlátható is.",
+          "text3": "Domain név és tárhely ügyintézés.",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/clients-844x445.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit2",
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "MobiriseIcons"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit2",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "responsive",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "timer",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section msg-box3 msg-box4\" \n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\"\n         mbr-if=\"_params.overlay | unless _params.bgColorRadio\"\n         mbr-opacity=\"_params.overlayOpacity\"\n         mbr-bg-color=\"_params.overlayColor\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"wraper\" mbr-bg-image=\"_params.containerImg\">\n              <div class=\"gradient-overlay\"></div>\n\n              <div class=\"mbr-table-cell col-md-6 mbr-figure\" mbr-media=\"media\" mbr-if=\"1 | unless _params.inverse\">\n              </div>\n\n              <div class=\"mbr-table-cell col-md-6 content\" mbr-if=\"1 | unless _params.inverse\">\n                  <h1 class=\"mbr-section-title display-2 text-center\"\n                      mbr-if=\"_params.showTitle\"\n                      mbr-html=\"title\"\n                      data-app-edit=\"content\"\n                      data-app-placeholder=\"Type Title\"></h1>\n                  <div class=\"icons-block\">\n                      <div class=\"container\">\n                      <div class=\"row\">\n                        <div class=\"col-md-4 icons-item\">\n                          <div class=\"card-img\" mbr-if=\"_params.showIcons\" mbr-media=\"media1\"></div>\n                          <p class=\"round-text text-1 text-center\"\n                             mbr-html=\"text1\"\n                             data-app-edit=\"content\"\n                             data-app-selector=\".round-text\"\n                             data-app-placeholder=\"Type Title\"></p>\n                        </div>\n                        <div class=\"col-md-4 icons-item\">\n                          <div class=\"card-img\" mbr-if=\"_params.showIcons\" mbr-media=\"media2\"></div>\n                          <p class=\"round-text text-1 text-center\"\n                             mbr-html=\"text2\"\n                             data-app-edit=\"content\"\n                             data-app-selector=\".round-text\"\n                             data-app-placeholder=\"Type Title\"></p>\n                        </div>\n                        <div class=\"col-md-4 icons-item\">\n                          <div class=\"card-img\" mbr-if=\"_params.showIcons\" mbr-media=\"media3\"></div>\n                          <p class=\"round-text text-1 text-center\"\n                             mbr-html=\"text3\"\n                             data-app-edit=\"content\"\n                             data-app-selector=\".round-text\"\n                             data-app-placeholder=\"Type Title\"></p>\n                        </div>  \n                      </div>\n                      </div>\n                  </div>\n              </div>\n\n              <!-- inverse -->\n\n              <div class=\"mbr-table-cell col-md-6 content\" mbr-if=\"_params.inverse\">\n                  <h1 class=\"mbr-section-title display-2 text-center\"\n                      mbr-if=\"_params.showTitle\"\n                      mbr-html=\"title\"\n                      data-app-edit=\"content\"\n                      data-app-placeholder=\"Type Title\"></h1>\n                  <div class=\"icons-block\">\n                      <div class=\"container\">\n                      <div class=\"row\">\n                        <div class=\"col-md-4 icons-item\">\n                          <div class=\"card-img\" mbr-if=\"_params.showIcons\" mbr-media=\"media1\"></div>\n                          <p class=\"round-text text-1 text-center\"\n                             mbr-html=\"text1\"\n                             data-app-edit=\"content\"\n                             data-app-selector=\".round-text\"\n                             data-app-placeholder=\"Type Title\"></p>\n                        </div>\n                        <div class=\"col-md-4 icons-item\">\n                          <div class=\"card-img\" mbr-if=\"_params.showIcons\" mbr-media=\"media2\"></div>\n                          <p class=\"round-text text-1 text-center\"\n                             mbr-html=\"text2\"\n                             data-app-edit=\"content\"\n                             data-app-selector=\".round-text\"\n                             data-app-placeholder=\"Type Title\"></p>\n                        </div>\n                        <div class=\"col-md-4 icons-item\">\n                          <div class=\"card-img\" mbr-if=\"_params.showIcons\" mbr-media=\"media3\"></div>\n                          <p class=\"round-text text-1 text-center\"\n                             mbr-html=\"text3\"\n                             data-app-edit=\"content\"\n                             data-app-selector=\".round-text\"\n                             data-app-placeholder=\"Type Title\"></p>\n                        </div>  \n                      </div>\n                      </div>\n                  </div>\n              </div>\n\n              <div class=\"mbr-table-cell col-md-6 mbr-figure\" mbr-media=\"media\" mbr-if=\"_params.inverse\">\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>\n",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-5"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "left",
+            "columns": 3,
+            "showFeaturesImages": true,
+            "iconsBgColor": "@primaryColor",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Hogyan készül a weboldal?",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "letter",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title1": "E-mailban<span style=\"font-weight: normal;\"> elküldöd a </span>feltölteni kívánt szövegeket <span style=\"font-weight: normal;\">és </span>képeket<span style=\"font-weight: normal;\">, amennyiben nem rendelkezel képekkel jogtiszta képeket biztosítok.</span><br><br><span style=\"font-weight: normal;\">E-mail címünk: </span><a href=\"mailto:ampweb@gmail.com\">ampweb@gmail.com</a>",
+          "subtitle1": "Awesome",
+          "text1": "",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "<span style=\"font-weight: normal;\">Ez alapján </span>elkészítem weboldalad<span style=\"font-weight: normal;\">&nbsp;és ahogy végeztem feltöltömk egy ideiglenes domainre, így megtekintheted és kipróbálhatod az elkészült honlapot, szükség esetén változtatok rajta, hogy maximálisan elégedett legyél!</span>",
+          "subtitle2": "Awesome",
+          "text2": "",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title3": "Fizetni az oldal elkészülte után kell<span style=\"font-weight: normal;\"> és ahogy megérkezik az összeg, publikálom a saját domain címeden. Nálam ez ennyire egyszerű. &nbsp;:)</span>",
+          "subtitle3": "Awesome",
+          "text3": "",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section mbr-section-hero features2\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-class-mbr-section-with-arrow=\"_params.showArrow\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n\n        <div class=\"container\" mbr-if=\"_params.showHeading\">\n            <div class=\"row heading\">\n                <div class=\"col-md-12\">\n\n                    <h1 class=\"mbr-section-title display-3 heading-title\"\n                        mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".heading-title\"\n                        data-app-placeholder=\"Type Title\">\n                    </h1>\n                    <p class=\"mbr-section-text text-1 heading-text\"\n                       mbr-if=\"_params.showText\"\n                       mbr-html=\"text\"\n                       data-app-edit=\"content\"\n                       data-app-selector=\".heading-text\"\n                       data-app-placeholder=\"Type Text\">\n                    </p>\n                    <div class=\"mbr-section-btn\"\n                         mbr-if=\"_params.showButtons | if buttons\"\n                         mbr-html=\"buttons\"\n                         data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove\">\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"container\">\n            <div class=\"col-xs-12\">\n                <div class=\"row\">\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 0\">\n                        <div class=\"card\">\n                            <div class=\"card-img col-xs-3 col-lg-12\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media1\"></div>\n                            <div class=\"card-box col-xs-9 col-lg-12\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title1\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text1\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button1\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 1\">\n                        <div class=\"card\">\n                            <div class=\"card-img col-xs-3 col-lg-12\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media2\"></div>\n                            <div class=\"card-box col-xs-9 col-lg-12\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title2\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text2\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button2\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 2\">\n                        <div class=\"card\">\n                            <div class=\"card-img col-xs-3 col-lg-12\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media3\"></div>\n                            <div class=\"card-box col-xs-9 col-lg-12\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title3\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text3\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button3\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 3\">\n                        <div class=\"card\">\n                            <div class=\"card-img col-xs-3 col-lg-12\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media4\"></div>\n                            <div class=\"card-box col-xs-9 col-lg-12\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title4\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text4\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button4\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n\n</section>",
+          "_name": "features2",
+          "_anchor": "features2-o",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#fffffd"
+          },
+          "text": "<p><b>Miért fontos egy megfelelően kialakított weboldal? És hogyan működik a weboldal készítés ?</b></p><p><b><br></b></p><p><b>\n</b></p><div>Gondolj úgy weboldaladra, mint egy névjegykártyára, amit átnyújtasz a leendő ügyfeleidnek. A weboldal fejlesztés során a megfelelően elkészített arculat, már az első találkozáskor is megragadja az érdeklődők figyelmét.\n</div><div>\n</div><div>A weboldal legfontosabb célja, hogy eladja a szolgáltatásodat/termékedet. Egy jól strukturált honlapnak köszönhetően, az érdeklődőkből könnyen vásárló lehet. Egy jó honlap irányítja a vásárlót, aki miután megismerte a terméked/szolgáltatásod előnyeit, könnyen megrendelheti azt, vagy könnyen felveheti veled a kapcsolatot, vagy az elhelyezett Google térképnek köszönhetően, gyorsan megtalálják üzleted. Fontos, hogy a weblap szövegezése, grafikája és felépítése tükrözze a termék/szolgáltatás minőségét, egyediségét.  Ezenfelül elengedhetetlen, hogy a weboldal készítés során  optimalizálva legyen mobil eszközökre. Egy jól megtervezett arculat és egy megfelelően kivitelezett profi weblap akár meg is duplázhatja a bevételeidet!</div><p></p>",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section content2 article mbr-section__container\"\n         mbr-bg-color=\"_params.bgColor\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-10 col-xs-offset-1\">\n                <blockquote class=\"mbr-section-text text-1\"\n                            mbr-html=\"text\"\n                            data-app-edit=\"full\"\n                            data-multiline\n                            data-app-placeholder=\"Type Content\"></blockquote>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_name": "content2",
+          "_anchor": "content2-w",
+          "_styles": {
+            "P": {
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": 3,
+            "showFeaturesImages": true,
+            "iconsBgColor": "@primaryColor",
+            "showFeaturesTitles": false,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Weboldal készítés",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "speed",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com"
+            }
+          },
+          "title1": "What is Mobirise",
+          "subtitle1": "Awesome",
+          "text1": "<b>Levelére garantáljuk a 24 órán belüli válaszadást! </b><br><b>Amennyiben engem bíz meg 3 munkanap alatt garantáltan elkészítem weboldalát!</b><br>Nálam az ügyfél az első, ezért weblapjaimra 1 év garanciát vállalok.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "What is Mobirise",
+          "subtitle2": "Awesome",
+          "text2": "<b>A responsive, azaz mobilbarát weboldal készítés</b> (Responsive Web Design) lényege, hogy olyan weboldalt készítünk, ami szinte teljesen böngésző és platform független megjelenésű, és mobil készülékekkel is élvezhető böngészést nyújt. Ugyanis az emberek több mint 50%-a ma már mobiltelefonról internetezik.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "What is Mobirise",
+          "subtitle3": "Awesome",
+          "text3": "&nbsp;<b>Teljeskörű domai és tárhely ügyintézés ingyen.</b> Villámgyors SSD tárhely a legjobb áron. Weblap karbantartás, a meglévő tartalom frissítése, így csak azzal kell foglalkoznod amihez a legjobban értesz.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section mbr-section-hero features13\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-class-mbr-section-with-arrow=\"_params.showArrow\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n\n        <div class=\"container\" mbr-if=\"_params.showHeading\">\n            <div class=\"row heading\">\n                <div class=\"col-md-12\">\n\n                    <h1 class=\"mbr-section-title display-3 heading-title\"\n                        mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".heading-title\"\n                        data-app-placeholder=\"Type Title\">\n                    </h1>\n                    <p class=\"mbr-section-text text-1 heading-text\"\n                       mbr-if=\"_params.showText\"\n                       mbr-html=\"text\"\n                       data-app-edit=\"content\"\n                       data-app-selector=\".heading-text\"\n                       data-app-placeholder=\"Type Text\">\n                    </p>\n                    <div class=\"mbr-section-btn\"\n                         mbr-if=\"_params.showButtons | if buttons\"\n                         mbr-html=\"buttons\"\n                         data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove\">\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"container\">\n            <div class=\"col-xs-12\">\n                <div class=\"row\">\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 0\">\n                        <div class=\"card\">\n                            <div class=\"card-img col-xs-3 col-lg-12\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media1\"></div>\n                            <div class=\"card-box col-xs-9 col-lg-12\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title1\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text1\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button1\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 1\">\n                        <div class=\"card\">\n                            <div class=\"card-img col-xs-3 col-lg-12\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media2\"></div>\n                            <div class=\"card-box col-xs-9 col-lg-12\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title2\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text2\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button2\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 2\">\n                        <div class=\"card\">\n                            <div class=\"card-img col-xs-3 col-lg-12\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media3\"></div>\n                            <div class=\"card-box col-xs-9 col-lg-12\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title3\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text3\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button3\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 3\">\n                        <div class=\"card\">\n                            <div class=\"card-img col-xs-3 col-lg-12\" mbr-if=\"_params.showFeaturesImages\" mbr-media=\"media4\"></div>\n                            <div class=\"card-box col-xs-9 col-lg-12\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showFeaturesTitles\"\n                                    mbr-html=\"title4\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                                <p class=\"card-text mbr-section-text text-1\" mbr-if=\"_params.showFeaturesTexts\"\n                                    mbr-html=\"text4\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-text\"\n                                    data-app-placeholder=\"Type Caption\"></p>\n                                <div class=\"card-btn\" mbr-if=\"_params.showFeaturesButtons\"\n                                    mbr-html=\"button4\"\n                                    data-app-edit=\"buttons\">\n                                </div>\n                            </div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n\n</section>",
+          "_name": "features13",
+          "_anchor": "features13-m",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          }
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "timeout": "3",
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#5b5f6b",
+            "overlayOpacity": 0.95,
+            "slides": [
+              {
+                "active": true,
+                "showButtons": false,
+                "showImage": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Easy to use",
+                "image": "@PROJECT_PATH@/assets/images/clients-844x445.png",
+                "contentAlign": "center",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptas quam illo amet, esse veniam autem perspiciatis impedit in assumenda cupiditate est quaerat ipsam cumque!",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "alt": ""
+              },
+              {
+                "active": false,
+                "showButtons": false,
+                "showImage": true,
+                "showText": true,
+                "showTitle": true,
+                "image": "@PROJECT_PATH@/assets/images/02.png",
+                "title": "Visual Editor",
+                "contentAlign": "center",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, veniam, blanditiis. Amet nam quam, quas porro quia sequi, perspiciatis ex saepe perferendis repellendus ea tenetur.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "showButtons": false,
+                "showImage": true,
+                "showText": true,
+                "showTitle": true,
+                "image": "@PROJECT_PATH@/assets/images/03.png",
+                "title": "No coding and free!",
+                "contentAlign": "center",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio facilis optio amet eum tenetur quos quam, autem culpa, illo, nemo itaque at placeat blanditiis.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-class-mbr-section-with-arrow=\"_params.showArrow\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\"\n         class=\"mbr-section mbr-section__container carousel slide features1\"\n         mbr-class-mbr-section-nopadding=\"'true' | unless articleLayout\"\n         data-ride=\"carousel\"\n         data-keyboard=\"false\"\n         data-wrap=\"true\"\n         data-pause=\"false\"\n         data-interval=\"false\">\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n    <div class=\"container boxed-slider\">\n        \n        <div class=\"carousel-inner\" role=\"listbox\">\n            <div class=\"carousel-item dark center\"\n                mbr-each-this=\"_params.slides\"\n                mbr-class-active=\"this.active\">\n                    <div class=\"container-slide\">\n                        <div class=\"row\">\n                            <div class=\"col-md-8\"\n                                mbr-class-col-md-offset-1=\"this.contentAlign | eq 'left'\"\n                                mbr-class-col-md-offset-2=\"this.contentAlign | eq 'center'\"\n                                mbr-class-col-md-offset-3=\"this.contentAlign | eq 'right'\"\n                                mbr-class-text-xs-center=\"this.contentAlign | eq 'center'\"\n                                mbr-class-text-xs-right=\"this.contentAlign | eq 'right'\">\n                                <h2\n                                    class=\"mbr-section-title display-3\"\n                                    mbr-if=\"this.showTitle\"\n                                    mbr-html=\"this.title\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".mbr-section-title\"\n                                    data-app-placeholder=\"Type Title\"></h2>\n                                <p\n                                    class=\"mbr-section-text text-1\"\n                                    mbr-if=\"this.showText\"\n                                    mbr-html=\"this.text\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".mbr-section-text\"\n                                    data-app-placeholder=\"Type Text\"></p>\n\n                                <div\n                                    class=\"mbr-section-btn\"\n                                    mbr-if=\"this.showButtons | if this.buttons\"\n                                    mbr-html=\"this.buttons\"\n                                    data-app-edit=\"buttons\"\n                                    data-toolbar=\"-mbrBtnMove\"></div>\n                            </div>\n                            <div class=\"col-xs-12\">\n                                <div class=\"media\" mbr-if=\"this.showImage\" mbr-bg-image=\"this.image\">\n                                </div>\n                            </div>\n                        </div>\n                </div>\n            </div>\n        </div>\n\n        <a data-app-prevent-settings class=\"left carousel-control\" mbr-href=\"_anchor | pref '#'\" role=\"button\" data-slide=\"prev\">\n            <span class=\"mbri-left\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only\">Previous</span>\n        </a>\n        <a data-app-prevent-settings class=\"right carousel-control\" mbr-href=\"_anchor | pref '#'\" role=\"button\" data-slide=\"next\">\n            <span class=\"mbri-right\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only\">Next</span>\n        </a>\n\n        <ol class=\"carousel-indicators\" mbr-if=\"_params.showBullets\">\n            <li data-app-prevent-settings mbr-each-this=\"_params.slides\" mbr-data-target=\"_anchor | pref '#'\" mbr-class-active=\"this.active\" mbr-data-slide-to=\"index\"></li>\n        </ol>\n    </div>\n</section>",
+          "_name": "features1",
+          "_anchor": "features1-x"
+        },
+        {
+          "_styles": {
+            "H1": {
+              "color": "#333333"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/msg-box1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "Webdesign 2018",
+          "title2": "GYORS &amp; LETISZTULT FORMA",
+          "text": "<li>Folyamatosan a trendeknek megfelelő designokkal és technikákkal segítjük vállalkozását.</li><br><li>Minden általunk készített weboldal 100%-ban tökéletesen használható az összes okos telefonon és táblagépen egyaránt.</li><br><li>Letisztult megjelenésű, gyors és &nbsp;jól használható weboldalak tervezése, hatékonyságra és üzleti célokra fókuszálva.</li>",
+          "roundBlockText": "Weboldal Start<br>29.990 Ft",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ÉRDEKEL</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ampweb.hu-1269x752.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section msg-box1\" \n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\"\n         mbr-if=\"_params.overlay | unless _params.bgColorRadio\"\n         mbr-opacity=\"_params.overlayOpacity\"\n         mbr-bg-color=\"_params.overlayColor\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n          <h1 class=\"mbr-section-title display-2 text-center\"\n              mbr-if=\"_params.showTitle\"\n              mbr-html=\"title\"\n              data-app-edit=\"content\"\n              data-app-placeholder=\"Type Title\"></h1> \n        </div>\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              <div class=\"mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-6\" mbr-if=\"_params.inverse\">\n                  <div class=\"round-block\">\n                    <div class=\"wraper\">\n                      <p class=\"round-text text-1 text-center\"\n                         mbr-html=\"roundBlockText\"\n                         data-app-edit=\"content\"\n                         data-app-selector=\".round-text\"\n                         data-app-placeholder=\"Type Title\"></p>\n                    </div>\n                  </div>\n                  <div class=\"mbr-figure\"  mbr-media=\"media\"></div>\n              </div>\n\n              <div class=\"mbr-table-cell mbr-right-padding-md-up col-md-6 text-xs-center text-md-right\" mbr-if=\"1 | unless _params.inverse\">\n                  <div class=\"span-title text-lg-left text-sm-center\">\n                      <span class=\"mbr-section-title sub-2 text-center pad-r\"\n                            mbr-if=\"_params.showSubTitle\"\n                            mbr-html=\"title2\"\n                            data-app-edit=\"content\"\n                            data-app-placeholder=\"Type Title\"></span>             \n                  </div>     \n\n                  <div class=\"list\"\n                       mbr-if=\"_params.showText\">\n                    <ul class=\"text-left\" \n                        mbr-html=\"text\"\n                        data-app-edit=\"content\"\n                        data-app-placeholder=\"Type Text\">\n                    </ul>\n                  </div>\n\n                  <div mbr-if=\"_params.showButtons | if buttons\"\n                       mbr-html=\"buttons\"\n                       class='left-button text-lg-left text-sm-center'\n                       data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove\"></div>\n              </div>\n\n              <!-- Inverse -->\n              \n              <div class=\"mbr-table-cell col-md-6 text-xs-center text-md-left\" mbr-if=\"_params.inverse\">\n                  <div class=\"span-title text-md-left text-xs-center\">\n                      <span class=\"mbr-section-subtitle sub-2 pad-r\"\n                            mbr-if=\"_params.showSubTitle\"\n                            mbr-html=\"title2\"\n                            data-app-edit=\"content\"\n                            data-app-placeholder=\"Type Title\"></span>             \n                  </div>             \n                  <div class=\"list\"\n                       mbr-if=\"_params.showText\">\n                    <ul class=\"text-left\" \n                        mbr-html=\"text\"\n                        data-app-edit=\"content\"\n                        data-app-placeholder=\"Type Text\">\n                    </ul>\n                  </div>\n\n                  <div mbr-if=\"_params.showButtons | if buttons\"\n                         mbr-html=\"buttons\"\n                         class='left-button text-lg-left text-sm-center'\n                         data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove\"></div>\n              </div>\n\n\n              <div class=\"mbr-table-cell mbr-valign-top col-md-6\" mbr-if=\"1 | unless _params.inverse\">\n                  <div class=\"round-block\">\n                    <div class=\"wraper\">\n                      <p class=\"text-1 text-center round-text\"\n                         mbr-html=\"roundBlockText\"\n                         data-app-edit=\"content\"\n                         data-app-selector=\".round-text\"\n                         data-app-placeholder=\"Type Title\"></p>\n                    </div>\n                  </div>\n                  <div class=\"mbr-figure\"  mbr-media=\"media\"></div>\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>\n",
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-8"
+        },
+        {
+          "_styles": {
+            ".mbr-cards-col:hover .card-overlay": {
+              "opacity": "1"
+            },
+            ".mbr-cards-col:hover .card-title": {
+              "color": "#fff"
+            },
+            ".mbr-cards-col:hover .mbr-iconfont": {
+              "border": "2px solid #fff",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          },
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "containerColor1": "#5aac98",
+            "containerColor2": "#8accb8",
+            "columns": 3,
+            "iconsBgColor": "@primaryColor",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Always on your terms",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 48
+            }
+          },
+          "title1": "Nálam fontos a gyorsaság! 3 munkanap alatt elkészül weboldalad.",
+          "subtitle1": "Awesome",
+          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "setting",
+              "family": "mobirise-icons-bold",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 48
+            }
+          },
+          "title2": "Elkészült weboldalt karban tartom és az általad kért tartalommal frissítem.",
+          "subtitle2": "Awesome",
+          "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 48
+            }
+          },
+          "title3": "Kis vállalkozások számára is elérhető ár.",
+          "subtitle3": "Awesome",
+          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 48,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section mbr-section-hero features5\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-class-mbr-section-with-arrow=\"_params.showArrow\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n\n        <div class=\"container\" mbr-if=\"_params.showHeading\">\n            <div class=\"row heading\">\n                <div class=\"col-xs-12\">\n\n                    <h1 class=\"mbr-section-title display-3 heading-title\"\n                        mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".heading-title\"\n                        data-app-placeholder=\"Type Title\">\n                    </h1>\n                    <p class=\"mbr-section-text text-1 heading-text\"\n                       mbr-if=\"_params.showText\"\n                       mbr-html=\"text\"\n                       data-app-edit=\"content\"\n                       data-app-selector=\".heading-text\"\n                       data-app-placeholder=\"Type Text\">\n                    </p>\n                    <div class=\"mbr-section-btn\"\n                         mbr-if=\"_params.showButtons | if buttons\"\n                         mbr-html=\"buttons\"\n                         data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove\">\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"container\">\n                <div class=\"row\">\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 0\">\n                        <div class=\"card-overlay\"></div>\n                        <div class=\"card\">\n                            <div class=\"card-box col-xs-9 mbr-table-cell text-xs-left\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\"\n                                    mbr-html=\"title1\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                            </div>\n                            <div class=\"card-img col-xs-3 mbr-table-cell\" mbr-media=\"media1\"></div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 1\">\n                        <div class=\"card-overlay\"></div>\n                        <div class=\"card\">\n                            <div class=\"card-box col-xs-9 mbr-table-cell text-xs-left\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\"\n                                    mbr-html=\"title2\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                            </div>\n                            <div class=\"card-img col-xs-3 mbr-table-cell\" mbr-media=\"media2\"></div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 2\">\n                        <div class=\"card-overlay\"></div>\n                        <div class=\"card\">\n                            <div class=\"card-box col-xs-9 mbr-table-cell text-xs-left\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\"\n                                    mbr-html=\"title3\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                            </div>\n                            <div class=\"card-img col-xs-3 mbr-table-cell\" mbr-media=\"media3\"></div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                    <div class=\"mbr-cards-col col-xs-12\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 3\">\n                        <div class=\"card-overlay\"></div>\n                        <div class=\"card\">\n                            <div class=\"card-box col-xs-9 mbr-table-cell text-xs-left\">\n                                <h4 class=\"card-title mbr-section-subtitle sub-2\"\n                                    mbr-html=\"title4\"\n                                    data-app-edit=\"content\"\n                                    data-app-selector=\".card-title\"\n                                    data-app-placeholder=\"Type Title\"></h4>\n                            </div>\n                            <div class=\"card-img col-xs-3 mbr-table-cell\" mbr-media=\"media4\"></div>\n                            <div class=\"clear\"></div>\n                        </div>\n                    </div>\n\n                </div>\n        </div>\n\n\n</section>",
+          "_name": "features5",
+          "_anchor": "features5-n"
+        },
+        {
+          "_styles": {
+            ".plan-wrap.default .plan-title": {
+              "background": "#6ca4cf"
+            },
+            ".plan-wrap.favorite .plan-title": {
+              "background": "#62cab1"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "favorite",
+            "secondType": "default",
+            "thirdType": "hidden",
+            "fourthType": "hidden",
+            "defaultColor": "#6ca4cf",
+            "favoriteColor": "#62cab1",
+            "rows": "8",
+            "paddingTop": "2",
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Weblapkészítés<b> </b>árak",
+          "subtitle": "(A feltüntetett áraknak nincs ÁFA tartalmuk, tevékenységünk alanyi adómentes)<br><br>",
+          "title1": "Start",
+          "title2": "Business",
+          "title3": "Premium",
+          "title4": "Ultimate",
+          "currency": "",
+          "text111": "<span class=\"price\">29.990 Ft</span>",
+          "text112": "",
+          "text12": "<b>Teljes körű domain és tárhely ügyintézés ingyen</b>",
+          "text13": "Egyedi, áttekinthető és korszerű dizájn kialakítása ( akár meglévő honlap tartalmának lemásolása és új modern reszponzív design kialakítása)",
+          "text14": "<b>Reszponzív/mobilbarát kialakítás</b>",
+          "text15": "<b>Maximum 5 aloldal készítése (vagy modern egy oldalas weboldal készítése)<br></b>\n<br>",
+          "text16": "Kapcsolatfelvételi űrlap készítése (megadott e-mail címre)<br>\n<br>",
+          "text17": "Honlap elhelyezése és beüzemelése a tárhely-szolgáltatónál\n<br>\n<br>",
+          "text18": "Látogatottsági statisztika (Google Analytics)\n<br><br><br><br><b>Logó készítése és feltöltése ingyen<br></b><br><br><br><b>Google térkép</b> használata útvonaltervezéssel<br><br><br><br><b>Click-to-call </b>telefonszám elhelyezése (telefonról egy <br>kattintással hívható)<br><br><br><b>Statikus weboldal</b> (Ön nem tudja szerkeszteni, így nem kell félni, hogy valamit elront.)<br><br><br><b>Havonta 1X ingyenes tartalom feltöltés&nbsp;</b>(felette is csak 990Ft/tartalom)<b><br></b><br><br><b>SSD</b>&nbsp;<b>Tárhely 1.200Ft/év</b> és .hu&nbsp;<b>Domain</b> &nbsp;<b>2.500 Ft - 3.000 Ft/ 2 év</b>&nbsp;",
+          "text19": "Lorem ipsa, nobis.",
+          "text211": "49.990 Ft",
+          "text212": "",
+          "text22": "<b>Teljes körű domain és tárhely ügyintézés ingyen</b>",
+          "text23": "Egyedi, áttekinthető és korszerű dizájn kialakítása ( akár meglévő honlap tartalmának lemásolása és új modern reszponzív design kialakítása)",
+          "text24": "<b>Reszponzív/mobilbarát kialakítás</b>",
+          "text25": "<b>Maximum 10 aloldal készítése\n(vagy modern egy oldalas weboldal készítése)<br></b>\n<br>",
+          "text26": "Kapcsolatfelvételi űrlap készítése (megadott e-mail címre)<br>\n<br>",
+          "text27": "Honlap elhelyezése és beüzemelése a tárhely-szolgáltatónál\n<br>\n<br>",
+          "text28": "Látogatottsági statisztika (Google Analytics)\n<br><br><br><br><b>Logó készítése és feltöltése ingyen\n<br></b><br><br><br><b>Google térkép</b> használata útvonaltervezéssel\n<br><br><br><br><b>Click-to-call</b> telefonszám elhelyezése (telefonról egy kattintással hívható)<br><br><br><b>Statikus weboldal</b> (Ön nem tudja szerkeszteni, így nem kell félni, hogy valamit elront.)<br><br><br><b>Havonta korlátlan tartalom feltöltés&nbsp;</b><b><br></b><br><br><br><b>SSD Tárhely 1.200Ft/év</b> és .hu <b>Domain  2.500 Ft - 3.000 Ft/ 2 év&nbsp;</b><br><br><br><b>Google AMP oldal készítése.</b> Accelerated Mobile Page (AMP) egy új technológia, aminek a Google áll a hátterében, segítségével <b>villámgyorsan &nbsp;</b>betöltődő mobil honlapot készíthetünk.<br><br><br><b>SEO</b>&nbsp;beállítások",
+          "text29": "Lorem ipsa, nobis.",
+          "text311": "<span class=\"price\">39</span>",
+          "text312": "<br>per Month",
+          "text32": "32GB Storage",
+          "text33": "Unlimited Users",
+          "text34": "15 GB bandwidth",
+          "text35": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text36": "Nesciunt! ipsum dolor.",
+          "text37": "Loipsa. consectetur.",
+          "text38": "Lorensectetur, omnis.",
+          "text39": "Lorem ipsa, nobis.",
+          "text411": "<span class=\"price\">49</span>",
+          "text412": "<br>per Month",
+          "text42": "8GB Storage",
+          "text43": "4 Users",
+          "text44": "15 GB bandwidth",
+          "text45": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text46": "Nesciunt! ipsum dolor.",
+          "text47": "Loipsa. consectetur.",
+          "text48": "Lorensectetur, omnis.",
+          "text49": "Lorem ipsa, nobis.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">EZT VÁLASZTOM!</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-black-outline\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">EZT VÁLASZTOM!</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-warning-outline\">Buy now!</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\">Buy now!</a>",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section pricingtable2\" mbr-class-mbr-background=\"_params.bgImageRadio | unless _params.parallax\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\"\n         mbr-if=\"_params.overlay | unless _params.bgColorRadio\"\n         mbr-opacity=\"_params.overlayOpacity\"\n         mbr-bg-color=\"_params.overlayColor\">\n    </div>\n\n      <div class=\"container heading\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h3 class=\"heading-title mbr-section-title display-3\" mbr-if=\"_params.showTitle\" mbr-html=\"title\"\n                        data-app-edit=\"content\" data-app-selector=\".heading-title\"\n                        data-app-placeholder=\"Type Header\"></h3>\n                  <p class=\"heading-text mbr-section-text text-1\" mbr-if=\"_params.showSubtitle\" mbr-html=\"subtitle\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".heading-text\"\n                        data-app-placeholder=\"Type Subheader\"></p>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"container\">\n      <div class=\"row plan\">\n        <div class=\"plan-wrap col-xs-12 col-lg-3\" mbr-add-class=\"_params.firstType\">\n          <h3 class=\"plan-title mbr-section-title sub-2 firstType\" mbr-html=\"title1\"\n            data-app-edit=\"content\"\n            data-app-selector=\".firstType.plan-title\"\n            data-app-placeholder=\"Type Header\">\n          </h3>\n          <p mbr-if=\"_params.rows | gt 0\" class=\"plan-price\">\n            <span class=\"plan-text mbr-section-text text-1 normal price\" mbr-html=\"text111\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.price\"\n                  data-app-placeholder=\"Type text\"></span>\n            <span class=\"plan-text mbr-section-text text-1 normal currency\" mbr-html=\"currency\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.plan-text\"\n                  data-app-placeholder=\"Type text\"></span>\n            <span class=\"plan-text mbr-section-text text-1 normal\" mbr-html=\"text112\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.plan-text\"\n                  data-app-placeholder=\"Type text\"></span>\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text12\"\n                mbr-if=\"_params.rows | gt 1\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text13\"\n                mbr-if=\"_params.rows | gt 2\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text14\"\n                mbr-if=\"_params.rows | gt 3\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text15\"\n                mbr-if=\"_params.rows | gt 4\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text16\"\n                mbr-if=\"_params.rows | gt 5\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text17\"\n                mbr-if=\"_params.rows | gt 6\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text18\"\n                mbr-if=\"_params.rows | gt 7\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <div class=\"plan-btn text-xs-center\" mbr-if=\"_params.showButtons\" mbr-html=\"button1\" data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"></div>\n        </div>\n\n        <div class=\"plan-wrap col-xs-12 col-lg-3\" mbr-add-class=\"_params.secondType\">\n          <h3 class=\"plan-title mbr-section-title sub-2 secondType\" mbr-html=\"title2\"\n            data-app-edit=\"content\"\n            data-app-selector=\".secondType.plan-title\"\n            data-app-placeholder=\"Type Header\">\n          </h3>\n          <p mbr-if=\"_params.rows | gt 0\" class=\"plan-price\">\n            <span class=\"plan-text mbr-section-text text-1 normal price\" mbr-html=\"text211\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.price\"\n                  data-app-placeholder=\"Type text\"></span>\n            <span class=\"plan-text mbr-section-text text-1 normal currency\" mbr-html=\"currency\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.plan-text\"\n                  data-app-placeholder=\"Type text\"></span>\n            <span class=\"plan-text mbr-section-text text-1 normal\" mbr-html=\"text212\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.plan-text\"\n                  data-app-placeholder=\"Type text\"></span>\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text22\"\n                mbr-if=\"_params.rows | gt 1\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text23\"\n                mbr-if=\"_params.rows | gt 2\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text24\"\n                mbr-if=\"_params.rows | gt 3\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text25\"\n                mbr-if=\"_params.rows | gt 4\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text26\"\n                mbr-if=\"_params.rows | gt 5\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text27\"\n                mbr-if=\"_params.rows | gt 6\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text28\"\n                mbr-if=\"_params.rows | gt 7\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <div class=\"plan-btn text-xs-center\" mbr-if=\"_params.showButtons\" mbr-html=\"button2\" data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"></div>\n        </div>\n\n        <div class=\"plan-wrap col-xs-12 col-lg-3\" mbr-add-class=\"_params.thirdType\">\n          <h3 class=\"plan-title mbr-section-title sub-2 thirdType\" mbr-html=\"title3\"\n            data-app-edit=\"content\"\n            data-app-selector=\".thirdType.plan-title\"\n            data-app-placeholder=\"Type Header\">\n          </h3>\n          <p mbr-if=\"_params.rows | gt 0\" class=\"plan-price\">\n            <span class=\"plan-text mbr-section-text text-1 normal price\" mbr-html=\"text311\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.price\"\n                  data-app-placeholder=\"Type text\"></span>\n            <span class=\"plan-text mbr-section-text text-1 normal currency\" mbr-html=\"currency\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.plan-text\"\n                  data-app-placeholder=\"Type text\"></span>\n            <span class=\"plan-text mbr-section-text text-1 normal\" mbr-html=\"text312\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.plan-text\"\n                  data-app-placeholder=\"Type text\"></span>\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text32\"\n                mbr-if=\"_params.rows | gt 1\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text33\"\n                mbr-if=\"_params.rows | gt 2\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text34\"\n                mbr-if=\"_params.rows | gt 3\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text35\"\n                mbr-if=\"_params.rows | gt 4\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text36\"\n                mbr-if=\"_params.rows | gt 5\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text37\"\n                mbr-if=\"_params.rows | gt 6\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text38\"\n                mbr-if=\"_params.rows | gt 7\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <div class=\"plan-btn text-xs-center\" mbr-if=\"_params.showButtons\" mbr-html=\"button3\" data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"></div>\n        </div>\n\n        <div class=\"plan-wrap col-xs-12 col-lg-3\" mbr-add-class=\"_params.fourthType\">\n          <h3 class=\"plan-title mbr-section-title sub-2 fourthType\" mbr-html=\"title4\"\n            data-app-edit=\"content\"\n            data-app-selector=\".fourthType.plan-title\"\n            data-app-placeholder=\"Type Header\">\n          </h3>\n          <p mbr-if=\"_params.rows | gt 0\" class=\"plan-price\">\n            <span class=\"plan-text mbr-section-text text-1 normal price\" mbr-html=\"text411\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.price\"\n                  data-app-placeholder=\"Type text\"></span>\n            <span class=\"plan-text mbr-section-text text-1 normal currency\" mbr-html=\"currency\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.plan-text\"\n                  data-app-placeholder=\"Type text\"></span>\n            <span class=\"plan-text mbr-section-text text-1 normal\" mbr-html=\"text412\"\n                  data-app-edit=\"content\"\n                  data-app-selector=\".normal.plan-text\"\n                  data-app-placeholder=\"Type text\"></span>\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text42\"\n                mbr-if=\"_params.rows | gt 1\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text43\"\n                mbr-if=\"_params.rows | gt 2\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text44\"\n                mbr-if=\"_params.rows | gt 3\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text45\"\n                mbr-if=\"_params.rows | gt 4\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text46\"\n                mbr-if=\"_params.rows | gt 5\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"tex47\"\n                mbr-if=\"_params.rows | gt 6\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <p class=\"plan-text mbr-section-text text-1\" mbr-html=\"text48\"\n                mbr-if=\"_params.rows | gt 7\"\n                data-app-edit=\"content\"\n                data-app-selector=\".plan-text\"\n                data-app-placeholder=\"Type text\">\n          </p>\n          <div class=\"plan-btn text-xs-center\" mbr-if=\"_params.showButtons\" mbr-html=\"button4\" data-app-edit=\"buttons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"></div>\n        </div>\n      </div>\n    </div>   \n</section>",
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-v"
+        },
+        {
+          "_params": {
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showCheckbox": true,
+            "formBg": "#5aac98",
+            "formHeader": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "DOLGOZZUNK EGYÜTT.",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "header": "Kérlek töltsd ki az adatlapot, és 24 óra alatt felveszem Veled a kapcsolatot.",
+          "form": {
+            "action": "frank.sandor88@gmail.com",
+            "alerts": {
+              "success": "Köszönöm szépen, hamarosan válaszolni fogok! További szép napot! :)"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Név*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Üzenet"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ELKÜLDÖM</a>",
+          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section mbr-section-hero form2\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-class-mbr-section-with-arrow=\"_params.showArrow\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n\n        <div class=\"container\" mbr-if=\"_params.showHeading\">\n            <div class=\"row heading\">\n                <div class=\"col-xs-12 col-md-8 col-md-offset-2\">\n\n                    <h1 class=\"mbr-section-title heading-title\"\n                        mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".heading-title\"\n                        data-app-placeholder=\"Type Title\">\n                    </h1>\n                    <p class=\"mbr-section-subtitle text-1 heading-text\"\n                       mbr-if=\"_params.showText\"\n                       mbr-html=\"text\"\n                       data-app-edit=\"content\"\n                       data-app-selector=\".heading-text\"\n                       data-app-placeholder=\"Type Text\">\n                    </p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"container\">\n            <div class=\"col-xs-12 form\">  \n\n                <div class=\"row\">\n                    <div data-form-alert=\"true\">\n                        <div mbr-text=\"form.alerts.success\" hidden data-form-alert-success=\"true\" class=\"alert alert-form alert-success text-xs-center\">\n                        </div>\n                    </div>\n\n                    <div class=\"row\" mbr-if=\"_params.formHeader\">\n                        <div class=\"col-xs-12 col-md-8 col-md-offset-2\">\n                            <h5 class=\"form-title mbr-section-subtitle text-1\"\n                                mbr-html=\"header\"\n                                data-app-edit=\"content\"\n                                data-app-selector=\".form-title\"\n                                data-app-placeholder=\"Type Header\"></h5>\n                        </div>                    \n                    </div>\n\n\n                    <form mbr-form=\"form\" action=\"https://mobirise.com/\" method=\"post\">\n\n                        <input type=\"hidden\" value=\"\" data-form-email=\"true\">\n\n                        <div class=\"col-xs-12 col-md-8 col-md-offset-2 form-wrap\">\n\n                            <div mbr-if=\"form.fields.name.visible\" class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" required data-form-field=\"Name\" mbr-placeholder=\"form.fields.name.customTitle\">\n                                </div>\n                            </div>\n\n                            <div mbr-if=\"form.fields.email.visible\" class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" required data-form-field=\"Email\" mbr-placeholder=\"form.fields.email.customTitle\">\n                                </div>\n                            </div>\n\n                            <div mbr-if=\"form.fields.phone.visible\" class=\"col-xs-12\">\n                                <div class=\"form-group\">\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" mbr-placeholder=\"form.fields.phone.customTitle\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12\">\n                                <textarea class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\" mbr-placeholder=\"form.fields.message.customTitle\"></textarea>\n                            </div>\n\n                        </div>\n\n                        <div class=\"clear\"></div>\n\n                        <div class=\"form-separator\"></div>\n\n                        <div class=\"col-xs-12 col-md-8 col-md-offset-2 form-button-wrap\">\n                            <div class=\"checkbox\" mbr-if=\"_params.showCheckbox\">\n                                <input id=\"checkbox\" type=\"checkbox\"><label for=\"checkbox\"></label>\n                                <span class='checkbox-title' \n                                      mbr-html='checkbox' \n                                      data-app-edit=\"content\"\n                                      data-app-selector=\".checkbox-title\"\n                                      data-app-placeholder=\"Type Title\"></span>\n                            </div>\n                            <div class=\"text-xs-right button-block\" mbr-html=\"buttons1\" data-app-edit=\"buttons\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"></div>\n\n                        </div>\n\n                    </form>\n\n                </div>\n    \n            </div>\n        </div>\n\n\n</section>",
+          "_name": "form2",
+          "_anchor": "form2-b",
+          "_styles": {
+            ".heading": {
+              "background": "#5aac98"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "columns": "4",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.4
+          },
+          "list": "<ul><li><a href=\"\">Bootstrap 4</a></li><li><a href=\"\">Responsive</a></li><li><a href=\"\">Web Fonts</a></li><li><a href=\"\">Unlimited Sites</a></li><li><a href=\"\">Google</a></li><li><a href=\"\">Node</a></li></ul>",
+          "title1": "For Business",
+          "title2": "For Developers",
+          "title3": "For Stores",
+          "title4": "For Students",
+          "text1": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br><a href=\"http://mobirise.com\">Perferendis, fugiat.</a><br><a href=\"http://mobirise.com\">Velit, id.</a><br><a href=\"http://mobirise.com\">Temporibus, aliquam.</a><br><a href=\"http://mobirise.com\">Veniam, dolores?</a><br><a href=\"http://mobirise.com\">Aliquid, eveniet.</a>",
+          "text2": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br /><a href=\"http://mobirise.com\">Eaque, illum.</a><br /><a href=\"http://mobirise.com\">Ducimus, modi.</a><br /><a href=\"http://mobirise.com\">Ipsa, quia!</a><br /><a href=\"http://mobirise.com\">Velit, impedit.</a><br /><a href=\"http://mobirise.com\">Est, alias?</a>",
+          "text3": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br><a href=\"http://mobirise.com\">Laboriosam, culpa.</a><br><a href=\"http://mobirise.com\">Tempora, quasi.</a><br><a href=\"http://mobirise.com\">Dolorem, eum.</a><br><a href=\"http://mobirise.com\">Fugiat, iure.</a><br><a href=\"http://mobirise.com\">Nobis, veniam.</a>",
+          "text4": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br><a href=\"http://mobirise.com\">Excepturi, consectetur.</a><br><a href=\"http://mobirise.com\">Similique, debitis.</a><br><a href=\"http://mobirise.com\">Cum, ea!</a><br><a href=\"http://mobirise.com\">Asperiores, at.</a><br><a href=\"http://mobirise.com\">Obcaecati, molestias.</a>",
+          "copy": "<br>© 2018 FrankWeb.hu | &nbsp;Weboldal készítés gyorsan, olcsón. Minden jog fenntartva.",
+          "_tags": [
+            "Téma"
+          ],
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-section footer1\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\"\n         mbr-bg-video=\"_params.bgVideo.url | if _params.bgVideoRadio\">\n\n    <div class=\"mbr-overlay\"\n         mbr-if=\"_params.overlay | unless _params.bgColorRadio\"\n         mbr-opacity=\"_params.overlayOpacity\"\n         mbr-bg-color=\"_params.overlayColor\">\n    </div>\n\n    <div class=\"container\">\n    <div class=\"row\">\n        <div class=\"mbr-cards-col col-xs-12 col-sm-6\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 0\">\n            <div class=\"card\">\n                <div class=\"card-box col-xs-9 col-lg-12\">\n                    <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title1\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".card-title\"\n                        data-app-placeholder=\"Type Title\"></h4>\n                    <p class=\"card-text mbr-section-text text-2\"\n                        mbr-html=\"text1\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".card-text\"\n                        data-app-placeholder=\"Type Caption\"></p>\n                </div>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n\n        <div class=\"mbr-cards-col col-xs-12 col-sm-6\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 1\">\n            <div class=\"card\">\n                <div class=\"card-box col-xs-9 col-lg-12\">\n                    <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title2\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".card-title\"\n                        data-app-placeholder=\"Type Title\"></h4>\n                    <p class=\"card-text mbr-section-text text-2\"\n                        mbr-html=\"text2\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".card-text\"\n                        data-app-placeholder=\"Type Caption\"></p>\n                </div>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n\n        <div class=\"mbr-cards-col col-xs-12 col-sm-6\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 2\">\n            <div class=\"card\">\n                <div class=\"card-box col-xs-9 col-lg-12\">\n                    <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title3\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".card-title\"\n                        data-app-placeholder=\"Type Title\"></h4>\n                    <p class=\"card-text mbr-section-text text-2\"\n                        mbr-html=\"text3\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".card-text\"\n                        data-app-placeholder=\"Type Caption\"></p>\n                </div>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n\n        <div class=\"mbr-cards-col col-xs-12 col-sm-6\" mbr-add-class=\"12 | / _params.columns | pref 'col-lg-'\" mbr-if=\"_params.columns | gt 3\">\n            <div class=\"card\">\n                <div class=\"card-box col-xs-9 col-lg-12\">\n                    <h4 class=\"card-title mbr-section-subtitle sub-2\" mbr-if=\"_params.showTitle\"\n                        mbr-html=\"title4\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".card-title\"\n                        data-app-placeholder=\"Type Title\"></h4>\n                    <p class=\"card-text mbr-section-text text-2\"\n                        mbr-html=\"text4\"\n                        data-app-edit=\"content\"\n                        data-app-selector=\".card-text\"\n                        data-app-placeholder=\"Type Caption\"></p>\n                </div>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n\n        <div class=\"row\">\n            <div class=\"col-xs-12 text-xs-center\">\n                <p class=\"card-text mbr-section-text text-1\"\n                    mbr-html=\"copy\"\n                    data-app-edit=\"content\"\n                    data-app-selector=\".card-text\"\n                    data-app-placeholder=\"Type Caption\"></p>\n            </div>\n        </div>\n    </div>\n\n</section>\n",
+          "_name": "footer1",
+          "_anchor": "footer1-c"
+        }
+      ]
+    }
+  }
+}

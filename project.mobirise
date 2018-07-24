@@ -27,7 +27,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.9",
     "siteFonts": [],
-    "uniqCompNum": 35,
+    "uniqCompNum": 38,
     "versionPublish": "4.7.9",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -328,7 +328,7 @@
               "size": 40
             }
           },
-          "title1": "E-mailban<span style=\"font-weight: normal;\"> elküldöd a </span>feltölteni kívánt szövegeket <span style=\"font-weight: normal;\">és </span>képeket<span style=\"font-weight: normal;\">, amennyiben nem rendelkezel képekkel jogtiszta képeket biztosítok.</span><br><br><span style=\"font-weight: normal;\">E-mail címünk: </span><a href=\"mailto:ampweb@gmail.com\">ampweb@gmail.com</a>",
+          "title1": "E-mailban<span style=\"font-weight: normal;\"> elküldöd a </span>feltölteni kívánt szövegeket <span style=\"font-weight: normal;\">és </span>képeket<span style=\"font-weight: normal;\">, amennyiben nem rendelkezel képekkel jogtiszta képeket biztosítok.</span><br><br><span style=\"font-weight: normal;\">E-mail címünk: <a href=\"mailto:frankweb@gmail.com\">frankweb@gmail.com</a></span>",
           "subtitle1": "Awesome",
           "text1": "",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
@@ -505,6 +505,133 @@
           }
         },
         {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "#fff",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hotel-676x1183.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/hotel-676x1183-676x1183.jpg",
+                "alt": "",
+                "title": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "caption": "Hotel weboldal",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/resume-676x1183.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/resume-676x1183-676x1183.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Fotós weboldal",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/premium-676x1183.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/premium-676x1183-676x1183.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Divat weboldal",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/business-676x1183.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/business-676x1183-676x1183.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Üzleti weboldal",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/tattoosalon-510x934.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tattoosalon-510x934-510x934.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Tetováló Szalon weboldal",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/barbershop-510x934.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/barbershop-510x934-510x934.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Barber Shop weboldal",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/beautysalon-510x934.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beautysalon-510x934-510x934.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Szépségszalon weboldal",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/demo-event-3-500x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/demo-event-3-500x900-500x900.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Stree Kitchen weboldal",
+                "active": true
+              }
+            ]
+          },
+          "_tags": [
+            "Téma"
+          ],
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "Weboldalak",
+          "_template": "<section mbr-id=\"_anchor\" class=\"mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel\" mbr-data-filter=\"_params.filter\" mbr-class-mbr-section__container=\"articleLayout\" mbr-bg-color=\"_params.bgColor\">\n    <!-- Filter -->\n    <div class=\"mbr-gallery-filter container text-xs-center\" mbr-if=\"_params.filter\" mbr-class-gallery-filter-active=\"_params.filter\" mbr-class-gallery-filter__bg=\"_params.filterBgColor\">\n        <ul>\n            <li class=\"mbr-gallery-filter-all active\" data-app-edit=\"content\" mbr-html=\"allItem\"></li>\n        </ul>\n    </div>\n\n    <!-- Gallery -->\n    <div class='mbr-gallery-row' mbr-class-container=\"_params.fullWidth\" mbr-class-container=\"articleLayout\">\n        <div mbr-class-mbr-gallery-layout-default=\"true | unless articleLayout\" mbr-class-mbr-gallery-layout-article=\"articleLayout\" mbr-class-playvideo=\"this.playVideo\" mbr-class-row=\"articleLayout\">\n            <div mbr-class-col-md-8=\"articleLayout\" mbr-class-col-md-offset-2=\"articleLayout\">\n                <div>\n                    <div class=\"mbr-gallery-item mbr-gallery-item__mobirise3\" mbr-add-class=\"'mbr-gallery-item--p' | suff  _params.spacing\" mbr-each-this=\"_params.images\" mbr-data-tags=\"this.tags\" mbr-class-video-slide=\"this.playVideo\" mbr-data-video-url=\"this.videoUrl | if this.playVideo\">\n                        <div mbr-href=\"_anchor | pref '#lb-'\" mbr-data-slide-to=\"index\">\n                            <div mbr-if=\"this.playVideo\"></div>\n                            <img mbr-if=\"this.playVideo\" mbr-src=\"this.videoPreview\" alt=\"\">\n\n                            <img mbr-unless=\"this.playVideo\" mbr-src=\"this.thumb | else this.image\" mbr-alt=\"this.alt\" mbr-title=\"this.title\">\n                            <span mbr-if=\"this.playVideo\" class=\"mbri-search\"></span>\n                            <span mbr-unless=\"this.playVideo\" class=\"mbri-search\"></span>\n                        </div>\n\n                        <span mbr-if=\"_params.showText\" mbr-html=\"this.caption\" data-app-edit=\"content\" data-app-placeholder=\"Type Text\" data-app-selector=\".mbr-gallery-title\" class=\"mbr-gallery-title display-6\">\n                        </span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"clearfix\"></div>\n        </div>\n    </div>\n\n    <!-- Lightbox -->\n    <div data-app-prevent-settings class=\"mbr-slider modal fade carousel slide\" mbr-id=\"_anchor | pref 'lb-'\" tabindex=\"-1\" data-keyboard=\"true\" data-interval=\"false\">\n        <div class=\"modal-dialog\">\n            <div class=\"modal-content\">\n                <div class=\"modal-body\">\n                    <ol class=\"carousel-indicators\" mbr-if=\"_params.showBullets\">\n                        <li data-app-prevent-settings mbr-each-this=\"_params.images\" mbr-data-target=\"_anchor | pref '#lb-'\" mbr-class-active=\"this.active\" mbr-data-slide-to=\"index\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\">\n                        <div class=\"carousel-item\" mbr-class-active=\"this.active\" mbr-each-this=\"_params.images\" mbr-class-video-container=\"this.playVideo\">\n                            <img mbr-src=\"this.image\" mbr-alt=\"this.alt\" mbr-title=\"this.title\">\n                        </div>\n                    </div>\n                    <a class=\"left carousel-control\" mbr-href=\"_anchor | pref '#lb-'\" role=\"button\" data-slide=\"prev\" mbr-html=\"arrowleft\">\n                    </a>\n                    <a class=\"right carousel-control\" mbr-href=\"_anchor | pref '#lb-'\" role=\"button\" data-slide=\"next\" mbr-html=\"arrowright\">\n                    </a>\n\n                    <a class=\"close\" href=\"#\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\">&times;</span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_name": "gallery3",
+          "_anchor": "gallery3-11",
+          "_styles": {
+            ".mbr-gallery-title": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
           "_params": {
             "autoplay": true,
             "timeout": "3",
@@ -525,7 +652,7 @@
             "overlayOpacity": 0.95,
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showImage": true,
                 "showText": true,
@@ -538,16 +665,17 @@
                 "alt": ""
               },
               {
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showImage": true,
                 "showText": true,
                 "showTitle": true,
-                "image": "@PROJECT_PATH@/assets/images/02.png",
+                "image": "@PROJECT_PATH@/assets/images/landing-676x1183.jpg",
                 "title": "Visual Editor",
                 "contentAlign": "center",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, veniam, blanditiis. Amet nam quam, quas porro quia sequi, perspiciatis ex saepe perferendis repellendus ea tenetur.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "alt": ""
               },
               {
                 "active": false,
@@ -606,7 +734,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/ampweb.hu-1269x752.png",
+              "src": "@PROJECT_PATH@/assets/images/amp-themes-blocks-2000x1308.jpg",
               "link": "",
               "alt": "",
               "title": ""

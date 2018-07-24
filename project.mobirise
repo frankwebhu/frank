@@ -15,7 +15,7 @@
         "titleFont": "Oxygen",
         "subtitleFont": "Libre Franklin",
         "textFont": "Libre Franklin",
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
@@ -157,9 +157,9 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "contentAlign": "center",
-            "showArrow": true,
+            "showArrow": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1276.jpg",
             "parallax": true,
@@ -174,8 +174,8 @@
             "overlayOpacity": "0.2"
           },
           "title": "<b>Weboldal készítés elérhető áron</b>",
-          "text": "A weboldal az egyik legolcsóbb és leghatékonyabb hirdetési forma, amely profi üzletkötőként önállóan és eredményesen működik.&nbsp;A modern üzleti élet egyik alapköve a webes jelenlét, közhely, de ma már mindenki az interneten keres szolgáltatást, szolgáltatót, vagy egyszerűen csak információt. Ezért lényeges a célnak megfelelő weblap készítése, a megfelelő webdesign. <br>Weboldalak már <b>bruttó 29.990 Ft-tól</b> elérhetőek.<br>Honlapja számítógépen, tableten és okostelefonon is megfelelően fog megjelenni.<br><br>Honlap készítés és karbantartás.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#pricing-table2-v\" data-toolbar=\"-mbrBtnMove\">Érdekel</a><a data-app-btn=\"true\" class=\"btn btn-md btn-white\" href=\"index.html#msg-box4-5\" data-toolbar=\"-mbrBtnMove\">Tovább olvasom</a>",
+          "text": "A weboldal az egyik legolcsóbb és leghatékonyabb hirdetési forma, amely profi üzletkötőként önállóan és eredményesen működik.&nbsp;A modern üzleti élet egyik alapköve a webes jelenlét, közhely, de ma már mindenki az interneten keres szolgáltatást, szolgáltatót, vagy egyszerűen csak információt. Ezért lényeges a célnak megfelelő weblap készítése, a megfelelő webdesign. <br>Weboldalak már <b>bruttó 29.990 Ft-tól</b> elérhetőek.<br>Honlapja számítógépen, tableten és okostelefonon is megfelelően fog megjelenni.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#msg-box4-5\" data-toolbar=\"-mbrBtnMove\">Tovább olvasom</a>",
           "_tags": [
             "Téma"
           ],

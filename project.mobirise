@@ -999,7 +999,12 @@
             "Téma"
           ],
           "_name": "share1",
-          "_anchor": "share1-19"
+          "_anchor": "share1-19",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_styles": {

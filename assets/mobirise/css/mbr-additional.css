@@ -542,11 +542,11 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 #menu1-0 .link {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 #menu1-0 .dropdown-item,
 #menu1-0 .nav-dropdown-sm .link {
-  font-size: 1.029rem;
+  font-size: 0.921rem;
 }
 #menu1-0 .link:hover,
 #menu1-0 .link:focus {

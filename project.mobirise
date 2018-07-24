@@ -63,10 +63,10 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
             ".link": {
-              "font-size": "0.95rem"
+              "font-size": "0.85rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.029rem"
+              "font-size": "0.921rem"
             },
             ".link:hover, .link:focus": {
               "color": "#6ca4cf"
@@ -113,7 +113,7 @@
             "collapsed": true,
             "transparent": false,
             "bgColor": "#fff",
-            "fontSize": "0.95",
+            "fontSize": "0.85",
             "imageSize": 4,
             "fontName": {
               "name": "Montserrat",

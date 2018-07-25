@@ -758,6 +758,12 @@ a:hover {
   text-align: left;
   font-family: 'Oxygen', sans-serif;
 }
+#custom-html-1s {
+  /* Type valid CSS here */
+}
+#custom-html-1s .my-image {
+  width: 100%;
+}
 #footer4-1k p {
   color: #000;
 }

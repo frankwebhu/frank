@@ -29,7 +29,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.9",
     "siteFonts": [],
-    "uniqCompNum": 64,
+    "uniqCompNum": 65,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -1202,6 +1202,22 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             }
           }
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Bővítmény"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1s",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>"
+          ]
         },
         {
           "_styles": {

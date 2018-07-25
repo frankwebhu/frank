@@ -145,25 +145,6 @@
 
 </section>
 
-<div id="custom-html-1s" custom-code="true" data-rv-view="691"><script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '546562802429692',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v3.0'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/hu_HU/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script></div>
-
 <footer class="mbr-small-footer mbr-section mbr-section-nopadding footer4" id="footer4-1k" data-rv-view="148" style="background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;">
     
     <div class="container">
@@ -181,24 +162,23 @@
   <script src="assets/smooth-scroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '546562802429692',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v3.0'
-    });
-  };
+  <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/hu_HU/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/hu_HU/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="293944667835016"
+  logged_in_greeting="Üdvözlöm! Miben segíthetek?"
+  logged_out_greeting="Üdvözlöm! Miben segíthetek?">
+</div>
   <input name="animation" type="hidden">
    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a></div>
   </body>

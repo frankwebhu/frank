@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "frankweb.hu",
-    "currentPage": "adatvedelem.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -49,7 +49,7 @@
         "title": "frankweb.hu | weboldal készítés, gyorsan, olcsón. ",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>",
+        "footer_custom": "<!-- Load Facebook SDK for JavaScript -->\n<div id=\"fb-root\"></div>\n<script>(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = 'https://connect.facebook.net/hu_HU/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';\n  fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));</script>\n\n<!-- Your customer chat code -->\n<div class=\"fb-customerchat\"\n  attribution=setup_tool\n  page_id=\"293944667835016\"\n  logged_in_greeting=\"Üdvözlöm! Miben segíthetek?\"\n  logged_out_greeting=\"Üdvözlöm! Miben segíthetek?\">\n</div>",
         "html_before": ""
       },
       "components": [
@@ -1044,7 +1044,7 @@
       "settings": {
         "title": "frankweb.hu | Adatkezelési irányelv",
         "order": 1,
-        "footer_custom": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>",
+        "footer_custom": "<!-- Load Facebook SDK for JavaScript -->\n<div id=\"fb-root\"></div>\n<script>(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = 'https://connect.facebook.net/hu_HU/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';\n  fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));</script>\n\n<!-- Your customer chat code -->\n<div class=\"fb-customerchat\"\n  attribution=setup_tool\n  page_id=\"293944667835016\"\n  logged_in_greeting=\"Üdvözlöm! Miben segíthetek?\"\n  logged_out_greeting=\"Üdvözlöm! Miben segíthetek?\">\n</div>",
         "html_before": "",
         "header_custom": ""
       },
@@ -1202,22 +1202,6 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             }
           }
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "{JS_CODE_0}",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Bővítmény"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-1s",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>"
-          ]
         },
         {
           "_styles": {

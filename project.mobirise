@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "frankweb.hu",
-    "currentPage": "index.html",
+    "currentPage": "adatvedelem.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -29,7 +29,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.9",
     "siteFonts": [],
-    "uniqCompNum": 63,
+    "uniqCompNum": 64,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -1165,7 +1165,7 @@
           },
           "_params": {
             "showMeta": true,
-            "paddingTop": "0",
+            "paddingTop": "5",
             "paddingBottom": "0",
             "bgColor": "#fff"
           },
@@ -1226,20 +1226,6 @@
           "_template": "<footer mbr-id=\"_anchor\" class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\"\n         mbr-class-mbr-background=\"_params.bgImageRadio | unless _params.parallax\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\">\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n    <div class=\"container\">\n        <p class=\"text-xs-center\" mbr-html=\"text\" data-app-edit=\"content\" data-app-placeholder=\"Type Text\"></p>\n    </div>\n</footer>",
           "_name": "footer4",
           "_anchor": "footer4-1k"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"30\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"page1.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Bővítmény"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-1l",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
         }
       ]
     }

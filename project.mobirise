@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "frankweb.hu",
-    "currentPage": "index.html",
+    "currentPage": "adatvedelem.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -48,9 +48,9 @@
         "main": true,
         "title": "frankweb.hu | weboldal készítés, gyorsan, olcsón. ",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>",
         "footer_custom": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>",
-        "html_before": ""
+        "html_before": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>"
       },
       "components": [
         {
@@ -1044,7 +1044,9 @@
       "settings": {
         "title": "frankweb.hu | Adatkezelési irányelv",
         "order": 1,
-        "footer_custom": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>"
+        "footer_custom": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>",
+        "html_before": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>",
+        "header_custom": "<script>\n  window.fbAsyncInit = function() {\n    FB.init({\n      appId            : '546562802429692',\n      autoLogAppEvents : true,\n      xfbml            : true,\n      version          : 'v3.0'\n    });\n  };\n\n  (function(d, s, id){\n     var js, fjs = d.getElementsByTagName(s)[0];\n     if (d.getElementById(id)) {return;}\n     js = d.createElement(s); js.id = id;\n     js.src = \"https://connect.facebook.net/hu_HU/sdk.js\";\n     fjs.parentNode.insertBefore(js, fjs);\n   }(document, 'script', 'facebook-jssdk'));\n</script>"
       },
       "components": [
         {

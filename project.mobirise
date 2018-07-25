@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "frankweb.hu",
-    "currentPage": "adatvedelem.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -1026,7 +1026,7 @@
           "_name": "footer4",
           "_anchor": "footer4-14",
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\np {\n  color: #000;\n}\nB {\n  font-family: 'Montserrat', sans-serif;\n}\n",
-          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"17\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"page1.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
+          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"24\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"page1.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true

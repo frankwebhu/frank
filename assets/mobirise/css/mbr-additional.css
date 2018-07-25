@@ -658,12 +658,87 @@ a:hover {
   font-size: 30px;
   text-align: center;
 }
-#share1-19 .mbr-section-title {
-  font-size: 36px;
-}
 #footer4-14 p {
   color: #000;
 }
 #footer4-14 B {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#menu1-1j .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu1-1j .navbar-toggler {
+  color: #1db5a8;
+}
+#menu1-1j .close-icon::before,
+#menu1-1j .close-icon::after {
+  background-color: #1db5a8;
+}
+#menu1-1j .link,
+#menu1-1j .dropdown-item {
+  color: #1db5a8;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu1-1j .link {
+  font-size: 0.85rem;
+}
+#menu1-1j .dropdown-item,
+#menu1-1j .nav-dropdown-sm .link {
+  font-size: 0.921rem;
+}
+#menu1-1j .link:hover,
+#menu1-1j .link:focus {
+  color: #6ca4cf;
+}
+#menu1-1j .dropdown-item:hover::before,
+#menu1-1j .dropdown-item:focus::before {
+  background: #6ca4cf;
+}
+#menu1-1j .dropdown-item:hover,
+#menu1-1j .dropdown-item:focus {
+  color: #1db5a8;
+}
+#menu1-1j .link[aria-expanded="true"],
+#menu1-1j .dropdown-menu {
+  background: #ffffff;
+}
+#menu1-1j .nav-dropdown-sm .link:focus,
+#menu1-1j .nav-dropdown-sm .link:hover,
+#menu1-1j .nav-dropdown-sm .dropdown-item:focus,
+#menu1-1j .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu1-1j .navbar,
+#menu1-1j .nav-dropdown-sm,
+#menu1-1j .nav-dropdown-sm .link[aria-expanded="true"],
+#menu1-1j .nav-dropdown-sm .dropdown-menu {
+  background: #fff;
+}
+#menu1-1j .bg-color.transparent .link {
+  color: #1db5a8;
+  transition: none;
+}
+#menu1-1j .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu1-1j .bg-color.transparent.opened .link:hover,
+#menu1-1j .bg-color.transparent.opened .link:focus {
+  color: #6ca4cf;
+}
+#menu1-1j .link[aria-expanded="true"],
+#menu1-1j .dropdown-item[aria-expanded="true"] {
+  color: #6ca4cf!important;
+}
+#menu1-1j .navbar-caption {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+#footer4-1k p {
+  color: #000;
+}
+#footer4-1k B {
   font-family: 'Montserrat', sans-serif;
 }

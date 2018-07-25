@@ -6,7 +6,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -658,6 +657,9 @@ a:hover {
   font-size: 30px;
   text-align: center;
 }
+#footer4-14 {
+  
+}
 #footer4-14 p {
   color: #000;
 }
@@ -741,4 +743,10 @@ a:hover {
 }
 #footer4-1k B {
   font-family: 'Montserrat', sans-serif;
+}
+#custom-html-1l {
+  /* Type valid CSS here */
+}
+#custom-html-1l .my-image {
+  width: 100%;
 }

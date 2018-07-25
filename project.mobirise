@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "frankweb.hu",
-    "currentPage": "page1.html",
+    "currentPage": "adatvedelem.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -29,7 +29,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.9",
     "siteFonts": [],
-    "uniqCompNum": 57,
+    "uniqCompNum": 59,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -128,7 +128,7 @@
             "fontColor": "#1db5a8",
             "fontHoverColor": "#6ca4cf"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Kezdőlap</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Jellemzők</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box4-5\">Reszponzív kialakítás</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features2-o\">Hogyan készül a weboldal?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features13-m\">Weboldal készítés<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box1-8\">Webdesign 2018</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table2-v\" aria-expanded=\"false\"><span class=\"mbri-sale mbr-iconfont mbr-iconfont-btn\"></span>Weblapkészítés árak</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"index.html#form2-b\">weblapkészítés megrendelése</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Kezdőlap</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Jellemzők</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box4-5\">Reszponzív kialakítás</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features2-o\">Hogyan készül a weboldal?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features13-m\">Weboldal készítés<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box1-8\">Webdesign 2018</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table2-v\" aria-expanded=\"false\"><span class=\"mbri-sale mbr-iconfont mbr-iconfont-btn\"></span>Weblapkészítés árak</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"index.html#form2-b\">weblapkészítés megrendelése</a></li>",
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
@@ -177,7 +177,7 @@
             "overlayColor": "#264a54",
             "overlayOpacity": "0.2"
           },
-          "title": "<b>Weboldal készítés elérhető áron</b>",
+          "title": "<b><br></b><b>Weboldal készítés elérhető áron</b>",
           "text": "A weboldal az egyik legolcsóbb és leghatékonyabb hirdetési forma, amely profi üzletkötőként önállóan és eredményesen működik.&nbsp;A modern üzleti élet egyik alapköve a webes jelenlét, közhely, de ma már mindenki az interneten keres szolgáltatást, szolgáltatót, vagy egyszerűen csak információt. Ezért lényeges a célnak megfelelő weblap készítése, a megfelelő webdesign. <br>Weboldalak már <b>bruttó 29.990 Ft-tól</b> elérhetőek.<br>Honlapja számítógépen, tableten és okostelefonon is megfelelően fog megjelenni.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#msg-box4-5\" data-toolbar=\"-mbrBtnMove\">Tovább olvasom</a>",
           "_tags": [
@@ -1006,15 +1006,6 @@
           "_anchor": "share1-19"
         },
         {
-          "_styles": {
-            "p": {
-              "color": "#000"
-            },
-            "B": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          },
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -1033,13 +1024,18 @@
           ],
           "_template": "<footer mbr-id=\"_anchor\" class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\"\n         mbr-class-mbr-background=\"_params.bgImageRadio | unless _params.parallax\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\">\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n    <div class=\"container\">\n        <p class=\"text-xs-center\" mbr-html=\"text\" data-app-edit=\"content\" data-app-placeholder=\"Type Text\"></p>\n    </div>\n</footer>",
           "_name": "footer4",
-          "_anchor": "footer4-14"
+          "_anchor": "footer4-14",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\np {\n  color: #000;\n}\nB {\n  font-family: 'Montserrat', sans-serif;\n}\n",
+          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"17\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"page1.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
         }
       ]
     },
-    "page1.html": {
+    "adatvedelem.html": {
       "settings": {
-        "title": "Page 1",
+        "title": "frankweb.hu | Adatkezelési irányelv",
         "order": 1
       },
       "components": [
@@ -1121,7 +1117,7 @@
             "fontColor": "#1db5a8",
             "fontHoverColor": "#6ca4cf"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Kezdőlap</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Jellemzők</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box4-5\">Reszponzív kialakítás</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features2-o\">Hogyan készül a weboldal?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features13-m\">Weboldal készítés<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box1-8\">Webdesign 2018</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table2-v\" aria-expanded=\"false\"><span class=\"mbri-sale mbr-iconfont mbr-iconfont-btn\"></span>Weblapkészítés árak</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"index.html#form2-b\">weblapkészítés megrendelése</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">Kezdőlap</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Jellemzők</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box4-5\">Reszponzív kialakítás</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features2-o\">Hogyan készül a weboldal?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features13-m\">Weboldal készítés<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box1-8\">Webdesign 2018</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table2-v\" aria-expanded=\"false\"><span class=\"mbri-sale mbr-iconfont mbr-iconfont-btn\"></span>Weblapkészítés árak</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"index.html#form2-b\">weblapkészítés megrendelése</a></li>",
           "logo": {
             "image": {
               "src": "@THEME_PATH@/components/_images/logo.png",
@@ -1179,6 +1175,20 @@
           "_template": "<footer mbr-id=\"_anchor\" class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\"\n         mbr-class-mbr-background=\"_params.bgImageRadio | unless _params.parallax\"\n         mbr-class-mbr-parallax-background=\"_params.parallax | if _params.bgImageRadio\"\n         mbr-bg-image=\"_params.bgImage | if _params.bgImageRadio\"\n         mbr-bg-color=\"_params.bgColor | if _params.bgColorRadio\">\n    <div class=\"mbr-overlay\" mbr-if=\"_params.overlay | unless _params.bgColorRadio\" mbr-opacity=\"_params.overlayOpacity\" mbr-bg-color=\"_params.overlayColor\"></div>\n    <div class=\"container\">\n        <p class=\"text-xs-center\" mbr-html=\"text\" data-app-edit=\"content\" data-app-placeholder=\"Type Text\"></p>\n    </div>\n</footer>",
           "_name": "footer4",
           "_anchor": "footer4-1k"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"20\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"page1.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Bővítmény"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1l",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         }
       ]
     }

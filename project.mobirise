@@ -29,7 +29,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.9",
     "siteFonts": [],
-    "uniqCompNum": 59,
+    "uniqCompNum": 63,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -63,8 +63,8 @@
             },
             ".link, .dropdown-item": {
               "color": "#1db5a8",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             },
             ".link": {
               "font-size": "0.85rem"
@@ -120,10 +120,10 @@
             "fontSize": "0.85",
             "imageSize": 4,
             "fontName": {
-              "name": "Montserrat",
-              "css": "'Montserrat', sans-serif",
+              "name": "Oxygen",
+              "css": "'Oxygen', sans-serif",
               "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
-              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             },
             "fontColor": "#1db5a8",
             "fontHoverColor": "#6ca4cf"
@@ -199,6 +199,10 @@
             },
             ".heading-text B": {
               "color": "#1db5a8"
+            },
+            ".heading-text": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             }
           }
         },
@@ -1052,8 +1056,8 @@
             },
             ".link, .dropdown-item": {
               "color": "#1db5a8",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             },
             ".link": {
               "font-size": "0.85rem"
@@ -1109,10 +1113,10 @@
             "fontSize": "0.85",
             "imageSize": 4,
             "fontName": {
-              "name": "Montserrat",
-              "css": "'Montserrat', sans-serif",
+              "name": "Oxygen",
+              "css": "'Oxygen', sans-serif",
               "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
-              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             },
             "fontColor": "#1db5a8",
             "fontHoverColor": "#6ca4cf"
@@ -1148,6 +1152,53 @@
         },
         {
           "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H1": {
+              "font-size": "46px"
+            },
+            "P": {
+              "color": "#616161",
+              "font-size": "13px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Adatvédelmi irányelv\n",
+          "meta": "hatályos: 2018.07.25",
+          "_tags": [
+            "Téma"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-1q"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<b>1. Adatvédelmi jogszabály célja<br></b>Az alábbi adatvédelmi tájékoztató azért jött létre, hogy biztosítsa az&nbsp;adatkezelés, adatfeldolgozás törvényi megfelelését, különös tekintettel&nbsp;az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény, valamint az&nbsp;egyéb adatbiztonsági jogszabályok rendelkezéseit.\n<br>Jelen adatvédelemmel kapcsolatos kérdésekre a magyar jogot kell alkalmazni, az adatvédelem keretében felmerülő bármely jogvita esetén Magyarország bíróságai bírnak joghatósággal.<br><br><b>2. Adatkezelő személy\n<br></b>A frankweb.hu weboldal üzemeltetőjének adatai és elérhetőségei:\n<br>&nbsp;<b>Név:</b>&nbsp;Frank Sándor E.V\n<br>&nbsp;<b>Adószám:</b> &nbsp;67572533-1-23\n<br>&nbsp;<b>Nyilvántartási szám:</b>&nbsp;50429952\n<br>&nbsp;<b>Székhely:</b> 6353 Dusnok, Rákóczi utca 8.\n<br>&nbsp;<b>Webcím:</b> frankweb.hu\n<br>&nbsp;<b>E-mail:</b> info@frankweb.hu\n<br>\n<br>Tárhely szolgáltató üzemeltetőjének adatai és elérhetőségei:\n<br><b>Név:</b>&nbsp;Magyar Hosting Kft.<br><b>Székhely:</b>&nbsp;1132 Budapest, Victor Hugo u. 18-22.<br><b>E-mail:</b>&nbsp;info@mhosting.hu<br><b>Telefonszám:</b>&nbsp;+36 1 700 2323<br><b>Cégjegyzékszám:</b>&nbsp;01-09-968314<br><b>Adószám:</b>&nbsp;23495919-2-41<br> \n<br><b>3. Alapfogalmak a személyes adatokkal kapcsolatban\n<br></b>&nbsp;adatvédelem:&nbsp;a&nbsp;személyes adatok jogszerű kezelését, az érintett személyek védelmét biztosító alapelvek, szabályok, eljárások, adatkezelési eszközök és módszerek összessége\n<br>&nbsp;személyes adat:&nbsp;Személyes adatnak minősül minden olyan adat, ami egy természetes személyes (érintett) kapcsolatba hozható, vagy bármilyen vonatkoztatás levonható az adatokból az érintettre vonatkozóan.\n<br>&nbsp;hozzájárulás:&nbsp;az érintett akaratának önkéntes és határozott kinyilvánítása, amely megfelelő tájékoztatáson alapul, és amellyel félreérthetetlen beleegyezését adja a rá vonatkozó személyes adatok&nbsp;–&nbsp;teljes körű vagy egyes műveletekre kiterjedő&nbsp;–&nbsp;kezeléséhez. Különleges adatok esetében szükséges az írásos forma.\n<br>&nbsp;tiltakozás:&nbsp;az érintett nyilatkozata, amellyel személyes adatainak kezelését kifogásolja, és az adatkezelés megszüntetését, illetve a kezelt adatok törlését kéri.\n<br>&nbsp;adatkezelő:&nbsp;az a személy vagy szervezet, aki/amely az adatok kezelésének célját meghatározza, az adatkezelésre (beleértve a felhasznált eszközt) vonatkozó döntéseket meghozza és végrehajtja, vagy az általa megbízott adatfeldolgozóval végrehajtatja.\n<br>&nbsp;adatfeldolgozás:&nbsp;az adatkezelési műveletekhez kapcsolódó technikai feladatok elvégzése (függetlenül a műveletek végrehajtásához alkalmazott módszertől és eszköztől, valamint az alkalmazás helyétől)\n<br>&nbsp;adatfeldolgozó:&nbsp;az személy vagy szervezet, aki/amely az adatkezelővel kötött szerződése alapján – beleértve a jogszabály rendelkezése alapján történő szerződéskötést is – az adatok feldolgozását végzi\n<br>&nbsp;adatkezelés: az alkalmazott eljárástól függetlenül az adatokon végzett bármely művelet,&nbsp;például az adatok gyűjtése, felvétele, rögzítése, rendszerezése, tárolása, megváltoztatása, felhasználása, lekérdezése, továbbítása, nyilvánosságra hozatala, összehangolása vagy összekapcsolása, zárolása, törlése és megsemmisítése, valamint az adatok további felhasználásának megakadályozása, fénykép-, hang-&nbsp;vagy képfelvétel készítése, valamint a személy azonosítására alkalmas fizikai jellemzők (ujj-&nbsp;vagy tenyérnyomat, DNS-minta, íriszkép stb.) rögzítése.\n<br>&nbsp;adattovábbítás: az adat meghatározott harmadik személy számára történő hozzáférhetővé tétele\n<br>&nbsp;nyilvánosságra hozatal: az adat bárki számára történő hozzáférhetővé tétele\n<br>&nbsp;addattörlés:&nbsp;az adatok felismerhetetlenné tétele oly módon, hogy a helyreállításuk többé nem lehetséges\n<br>&nbsp;adatbiztonság:&nbsp;az adatok jogosulatlan megszerzése, módosítása és megsemmisítése elleni műszaki és szervezési megoldások rendszere\n<br>&nbsp;harmadik személy:&nbsp;olyan természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, aki, vagy amely nem azonos az érintettel, az adatkezelővel vagy az adatfeldolgozóval\n<br><br><b>4. Adatkezelési alapelvek\n<br></b>A&nbsp;frankweb.hu weboldal üzemeltetője (továbbiakban üzemeltető)&nbsp;csakis olyan személyes adatokat kezel, amelyhez előzetesen a felhasználó hozzájárult és megfelelő tájékoztatást kap az adatfelvételmódjáról, céljáról és elveiről. Az üzemeltető kizárólag meghatározott célból kezeli a személyes adatokat, jog gyakorlása és kötelezettség teljesítése érdekében. Az adatok kezelése a felhasználók számára világos céllal történik és az adatokat csak a jogszabály által előírt ideig vannak megőrizve.\n<br>Kizárólag olyan személyes adatok kezelése történik, amely az adatkezelés céljának megvalósulásához nélkülözhetetlen. A személyes adatok kezelése csak a cél megvalósulásához szükséges mértékben történik. Az alábbi adatkezelés célja, hogy a honlapon lévő kapcsolati űrlapokon (ajánlatkérés, kapcsolat) keresztül az üzemeltető&nbsp;fel tudja venni az érdeklődőkkel a kapcsolatot és így a szolgáltatását tudja értékesíteni.\n<br>Minden olyan esetben, amikor a szolgáltatott adatokat nem az eredeti célnak megfelelően kívánja az üzemeltető felhasználni, erről előzetesen köteles a felhasználót tájékoztatni és a hozzájárulását kérni, illetve lehetőséget kell biztosítania számára, hogy adatainak felhasználást megtiltsa.\n<br>A felhasználó kérheti, hogy tájékoztatva legyen személyes adatai kezeléséről vagy ha úgy dönt, akkor a személyes adatai törléséről. Ha ilyen kérések előfordulnak, akkor az üzemeltetője köteles a lehető legrövidebb idő alatt eleget tenni ennek. Ez az idő nem lehet több, mint 30 nap.\n<br>Az üzemeltető&nbsp;az általa kezelt személyes adatokat harmadik személy részére csak a felhasználó által használt&nbsp;szolgáltatásainak fejlesztése és/vagy működtetése érdekében továbbítja. Az üzemeltető az általa kezelt személyes adatokat harmadik személy céljainak érdekében nem használja fel, és azokkal semmilyen egyéb módon nem él vissza.\n<br>A weboldal külső (nem az üzemelő. által kezelt) szerverre mutató hivatkozásokat is tartalmaznak. Ezen linkeken elérhető oldalak elhelyezhetik saját cookie vagy egyéb fájljaikat a számítógépen, adatokat gyűjthetnek, vagy személyes adatokat kérhetnek. Ezekért az üzemeltető minden felelősségét kizárja.\n<br><br><b>5. Adatkezelések a weboldalon\n<br>5.1 A weboldal látogatóinak adatai\n<br></b>A frankweb.hu weboldalának egyes részei ún.&nbsp;‘cookie’-kat helyezhetnek el a látogatók számítógépén. Ezek – egyéb látogatószámot mérő módszerekkel együtt – a weboldal&nbsp;adott oldalainak látogatottságáról szolgáltatnak információt. Nem gyűjt be személyes adatokat az egyes látogatókról, és az információ kizárólag együttes formában jelenik meg. E technológiának és a szolgáltatott információknak célja weboldal&nbsp;fejlesztése, valamint a visszatérő látogatók elérhetőségeinek és személyes adatainak tárolása későbbi látogatásokhoz.\n<br>A felhasználó a saját számítógépéről ki tudja törölni a cookie-kat, illetve ha akarja meg is tilthatja alkalmazásukat. Általában a Beállítások / Adatvédelem alatti menüpontban állítható be.\n<br><br><b>5.2 Ajánlatkérés\n<br></b>&nbsp;Jogalap:&nbsp;a felhasználó önkéntes hozzájárulása, mely akkor történik, amikor a e-mailt küld a frankweb.hu weboldalon keresztül. A látogató addig nem is tud e-mailt küldeni, amíg hozzá nem járul, hogy adatait kezelhesse az üzemeltető.\n<br>&nbsp;Kezelt adatok köre:&nbsp;név, cégnév, email cím, telefonszám, jelenlegi weboldala\n<br>&nbsp;Adatkezelés célja: A beérkezett ajánlatok összegyűjtése és a megadott adatok alapján ajánlatadás az aktuális szolgáltatásra. Későbbiekben pedig az érdeklődővel a kapcsolattartás.\n<br>&nbsp;Adatok kezelésének ideje:&nbsp; Az adatkezelő a személyes adatokat az adatkezelés céljának ideje alatt kezeli. Tehát a bejövő ajánlatkéréstől számítva maximum 30 napig. Ez abban az esetben módosulhat, ha a felhasználó kéri az adatainak a törlését vagy vissza nem vonja a hozzájárulását.\n<br><br><b>5.3 Kapcsolat\n<br></b>&nbsp;Jogalap:&nbsp;a felhasználó önkéntes hozzájárulása, mely akkor történik, amikor a e-mailt küld a frankweb.hu weboldalon keresztül. A látogató addig nem is tud e-mailt küldeni, amíg hozzá nem járul, hogy adatait kezelhesse az üzemeltető.\n<br>&nbsp;Kezelt adatok köre:&nbsp;név, email cím, üzenet\n<br>&nbsp;Adatkezelés célja: A látogatók észrevételeinek gyűjtése és reagálása, hogy az üzemeltető minél jobb honlappal tudjon megjelenni a felhasználók előtt. Szolgáltatás értékesítésére az 5.1-es pontban részletezett ajánlatkérő űrlap biztosít lehetőséget.\n<br>&nbsp;Adatok kezelésének ideje:&nbsp; A hozzájáruló nyilatkozat visszavonásáig.\n<br><br><b>6. Adatbiztonság\n<br></b>&nbsp;A&nbsp;weboldal a Tárhely.com Kft. szerverén található, ami a Bix központban&nbsp;helyezkedik el. Ezen vállalkozások adatfeldolgozási tevékenységet végeznek a honlap üzemeltetésével összefüggésben.\n<br>&nbsp;Adatkezelő az adatokat védi különösen a jogosulatlan hozzáférés, megváltoztatás, továbbítás, nyilvánosságra hozatal, törlés vagy megsemmisítés, valamint a véletlen megsemmisülés és sérülés ellen.\n<br>&nbsp;&nbsp;Az adatkezelő a szerver üzemeltetőivel együtt olyan technikai, szervezési és szervezeti intézkedésekkel gondoskodik az adatok biztonságáról, ami az adatkezeléssel kapcsolatban jelentkező kockázatoknak megfelelő védelmi szintet nyújt.<br>\n<br><b>7. Jogorvoslat\n<br></b>Érintett kérhet tájékoztatást a személyes adatai kezeléséről, illetve ha szükségét érzi, akkor kérheti az adatok módosítását vagy törlését bármelyik elérhetőségen keresztül.\n<br>Ha ilyen kérések előfordulnak, akkor az üzemeltetője köteles a lehető legrövidebb idő alatt eleget tenni ennek. Ez az idő nem lehet több, mint 30 nap.\n<br>A valóságtól eltérő személyes adatokat az adatkezelő köteles javítani.\n<br>Az adatkezelő a helyesbítésről és a törlésről az érintettet, továbbá mindazokat értesíti, akiknek korábban az adatot adatkezelés céljára továbbította. Az értesítés mellőzhető, ha ez az adatkezelés céljára való tekintettel az érintett jogos érdekét nem sérti.\n<br>Ha bármelyik adat jogellenes, téves, hiányos vagy az adatkezelési nyilatkozatban feltüntetett tárolási ideje lejárt (30 nap), akkor az üzemeltető az adatokat törli.\n<br>Az érintett tiltakozhat személyes adatának kezelése ellen, ha:\n<br>&nbsp;a személyes adatok kezelése (továbbítása) kizárólag az adatkezelő vagy az adatátvevő jogának vagy jogos érdekének érvényesítéséhez szükséges, kivéve, ha az adatkezelést törvény rendelte el\n<br>&nbsp;a személyes adat felhasználása vagy továbbítása közvetlen üzletszerzés, közvélemény-kutatás vagy tudományos kutatás céljára történik\n<br>&nbsp;a tiltakozás jogának gyakorlását egyébként törvény lehetővé teszi\n<br>Az üzemeltető az érintett adatainak jogellenes kezelésével vagy a technikai adatvédelem követelményeinek megszegésével másnak okozott kárt megtéríti. Az adatkezelő mentesül a felelősség alól, ha bizonyítja, hogy a kárt az adatkezelés körén kívül eső elháríthatatlan ok idézte elő. Nem kell megtéríteni a kárt annyiban, amennyiben az a károsult szándékos vagy súlyosan gondatlan magatartásából származott.\n<br>Jogorvoslati lehetőséggel, panasszal a Nemzeti Adatvédelmi és Információszabadság Hatóságnál lehet élni.\n<br>A NAIH kapcsolati adatai a következők: 1125 Budapest, Szilágyi Erzsébet fasor 22/C.; telefon: +36 1 391 1400; fax: +36 1 391 1410; e-mail: ugyfelszolgalat@naih.hu; weboldal: www.naih.hu.\n<br>Bírósági út: az adatvédelmi perek elbírálása a törvényszék hatáskörébe tartozik. A per – az érintett választása szerint – az érintett lakóhelye vagy tartózkodási helye szerinti törvényszék előtt is megindítható.",
+          "_tags": [
+            "Téma"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1o",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            }
+          }
+        },
+        {
+          "_styles": {
             "p": {
               "color": "#000"
             },
@@ -1179,7 +1230,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"20\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"page1.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
+          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"30\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"page1.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [

@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i);
+
 
 
 
@@ -535,7 +536,7 @@ a:hover {
 #menu1-0 .link,
 #menu1-0 .dropdown-item {
   color: #1db5a8;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 #menu1-0 .link {
   font-size: 0.85rem;
@@ -607,6 +608,9 @@ a:hover {
 #header4-2 .heading-text B {
   color: #1db5a8;
 }
+#header4-2 .heading-text {
+  font-family: 'Oxygen', sans-serif;
+}
 #msg-box4-5 H1 {
   color: #434343;
 }
@@ -669,6 +673,7 @@ a:hover {
 
 
 
+
 #menu1-1j .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -682,7 +687,7 @@ a:hover {
 #menu1-1j .link,
 #menu1-1j .dropdown-item {
   color: #1db5a8;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 #menu1-1j .link {
   font-size: 0.85rem;
@@ -737,6 +742,21 @@ a:hover {
 #menu1-1j .navbar-caption {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
+}
+#content3-1q .mbr-section-title,
+#content3-1q .mbr-section-subtitle {
+  text-align: center;
+}
+#content3-1q H1 {
+  font-size: 46px;
+}
+#content3-1q P {
+  color: #616161;
+  font-size: 13px;
+}
+#content1-1o P {
+  text-align: left;
+  font-family: 'Oxygen', sans-serif;
 }
 #footer4-1k p {
   color: #000;

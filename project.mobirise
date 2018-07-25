@@ -34,7 +34,7 @@
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<!-- Load Facebook SDK for JavaScript -->\r\n<div id=\"fb-root\"></div>\r\n<script>(function(d, s, id) {\r\n  var js, fjs = d.getElementsByTagName(s)[0];\r\n  if (d.getElementById(id)) return;\r\n  js = d.createElement(s); js.id = id;\r\n  js.src = 'https://connect.facebook.net/hu_HU/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';\r\n  fjs.parentNode.insertBefore(js, fjs);\r\n}(document, 'script', 'facebook-jssdk'));</script>\r\n\r\n<!-- Your customer chat code -->\r\n<div class=\"fb-customerchat\"\r\n  attribution=setup_tool\r\n  page_id=\"293944667835016\"\r\n  logged_in_greeting=\"Üdvözlöm! Miben segíthetek?\"\r\n  logged_out_greeting=\"Üdvözlöm! Miben segíthetek?\">\r\n</div>",
     "cookiesAlert": "",
     "gdpr": "",
     "siteUrl": "",
@@ -272,11 +272,13 @@
           },
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
               "name": "edit2",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "index.html#msg-box4-5",
+              "newWindow": false
             }
           },
           "media2": {
@@ -286,16 +288,19 @@
               "name": "responsive",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com"
+              "link": "index.html#msg-box4-5",
+              "newWindow": false
             }
           },
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
               "name": "timer",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "index.html#msg-box4-5",
+              "newWindow": false
             }
           },
           "_tags": [
@@ -343,8 +348,8 @@
               "name": "letter",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 40
+              "link": "mailto:info@frankweb.hu",
+              "size": "40"
             }
           },
           "title1": "E-mailban<span style=\"font-weight: normal;\"> elküldöd a </span>feltölteni kívánt szövegeket <span style=\"font-weight: normal;\">és </span>képeket<span style=\"font-weight: normal;\">, amennyiben nem rendelkezel képekkel jogtiszta képeket biztosítok ingyen.</span><br><br><span style=\"font-weight: normal;\">E-mail címünk: </span><a href=\"mailto:info@frankweb.hu\">info@frankweb.hu</a>",
@@ -353,12 +358,13 @@
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "responsive",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 40
             }
           },
           "title2": "<span style=\"font-weight: normal;\">Ez alapján </span>elkészítem weboldalad<span style=\"font-weight: normal;\">&nbsp;és ahogy végeztem feltöltöm egy ideiglenes domainre, így megtekintheted és kipróbálhatod az elkészült honlapot, szükség esetén változtatok rajta, hogy maximálisan elégedett legyél!</span>",
@@ -372,7 +378,7 @@
               "name": "like",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 40
             }
           },
@@ -464,7 +470,7 @@
               "name": "speed",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com"
+              "link": ""
             }
           },
           "title1": "What is Mobirise",
@@ -473,11 +479,12 @@
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "responsive",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": ""
             }
           },
           "title2": "What is Mobirise",
@@ -486,11 +493,12 @@
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "setting",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": ""
             }
           },
           "title3": "What is Mobirise",
@@ -763,7 +771,7 @@
               "name": "clock",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 48
             }
           },
@@ -778,7 +786,7 @@
               "name": "setting",
               "family": "mobirise-icons-bold",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 48
             }
           },
@@ -793,7 +801,7 @@
               "name": "like",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 48
             }
           },
@@ -867,22 +875,22 @@
           "text111": "<span class=\"price\">29.990 Ft</span>",
           "text112": "",
           "text12": "<b>Teljes körű domain és tárhely ügyintézés ingyen</b>",
-          "text13": "Áttekinthető és korszerű dizájn kialakítása &nbsp;<br><br><br><b><br>Meglévő honlap tartalmának lemásolása és új modern reszponzív design kialakítása</b>",
-          "text14": "<b>Reszponzív/mobilbarát kialakítás</b>",
-          "text15": "<b>Maximum 5 aloldal készítése (vagy modern egy oldalas weboldal készítése)<br></b>\n<br>",
-          "text16": "Kapcsolatfelvételi űrlap készítése (megadott e-mail címre)<br>\n<br>",
-          "text17": "Honlap elhelyezése és beüzemelése a tárhely-szolgáltatónál\n<br>\n<br>",
-          "text18": "Látogatottsági statisztika (Google Analytics)\n<br><br><br><br><b>Start Logó készítése és feltöltése ingyen<br></b><br><br><br><b>Google térkép</b> használata útvonaltervezéssel<br><br><br><br><b>Click-to-call </b>telefonszám elhelyezése (telefonról egy <br>kattintással hívható)<br><br><br><b>Statikus weboldal</b> (Ön nem tudja szerkeszteni, így nem kell félni, hogy valamit elront.)<br><br><br><b>Havonta 1X ingyenes tartalom feltöltés&nbsp;</b>(felette is csak 990Ft/tartalom)<b><br></b><br><br><b>SSD</b>&nbsp;<b>Tárhely 1.200Ft/év</b> és .hu&nbsp;<b>Domain</b> &nbsp;<b>2.500 Ft - 3.000 Ft/ 2 év</b>&nbsp;",
+          "text13": "Áttekinthető és korszerű dizájn kialakítása &nbsp;<br><br><b><br>Meglévő honlap tartalmának lemásolása és </b><br><b>új modern reszponzív design kialakítása</b>",
+          "text14": "<b>Reszponzív/mobilbarát kialakítás</b><b><br></b>",
+          "text15": "<b>Maximum 5 aloldal készítése </b><br><b>(vagy modern egy oldalas weboldal készítése)</b><br>",
+          "text16": "Kapcsolatfelvételi űrlap készítése <br>(megadott e-mail címre)<br>",
+          "text17": "Honlap elhelyezése és beüzemelése a <br>tárhelyszolgáltatónál\n<br>",
+          "text18": "Látogatottsági statisztika <br>(Google Analytics)\n<br><br><br><b>Start Logó készítése és </b><br><b>feltöltése ingyen<br></b><br><br><b>Google térkép</b> <br>használata útvonaltervezéssel<br><br><br><b>Click-to-call </b><b><br></b>telefonszám elhelyezése (telefonról egy <br>kattintással hívható)<br><br><br><b>Statikus weboldal</b> <br>(Ön nem tudja szerkeszteni, így nem kell félni, hogy valamit elront.)<br><br><br><b>Havonta 1x ingyenes tartalom feltöltés&nbsp;</b><b><br></b>(felette is csak 990Ft/tartalom)<br><br><br><b>SSD</b>&nbsp;<b>Tárhely 1.200 Ft/ év</b>&nbsp;<br>.hu&nbsp;<b>Domain</b> &nbsp;<b>1.800 Ft/ 2év</b><br><br><br><b>SSL </b>tanusítvány telepítése és beállítása<br>most <b>0 Ft</b>!",
           "text19": "Lorem ipsa, nobis.",
           "text211": "59.990 Ft",
           "text212": "",
           "text22": "<b>Teljes körű domain és tárhely ügyintézés ingyen</b>",
-          "text23": "<b>Egyedi</b>, áttekinthető és korszerű dizájn kialakítása <br><br><br><br><b>Meglévő honlap tartalmának lemásolása és új modern reszponzív design kialakítása</b>",
+          "text23": "<b>Egyedi</b>, áttekinthető és korszerű dizájn kialakítása <br><br><br><b>Meglévő honlap tartalmának lemásolása és </b><br><b>új modern reszponzív design kialakítása</b>",
           "text24": "<b>Reszponzív/mobilbarát kialakítás</b>",
-          "text25": "<b>Maximum 15 aloldal készítése\n(vagy modern egy oldalas weboldal készítése)<br></b>\n<br>",
-          "text26": "Kapcsolatfelvételi űrlap készítése (megadott e-mail címre)<br>\n<br>",
-          "text27": "Honlap elhelyezése és beüzemelése a tárhely-szolgáltatónál\n<br>\n<br>",
-          "text28": "Látogatottsági statisztika (Google Analytics)\n<br><br><br><br><b>Business Logó készítése és feltöltése ingyen\n<br></b><br><br><br><b>Google térkép</b> használata útvonaltervezéssel\n<br><br><br><br><b>Click-to-call</b> telefonszám elhelyezése (telefonról egy kattintással hívható)<br><br><br><b>Statikus weboldal</b> (Ön nem tudja szerkeszteni, így nem kell félni, hogy valamit elront.)<br><br><br><b>Havonta korlátlan tartalom feltöltés&nbsp;</b><b><br></b><br><br><br><b>SSD Tárhely 1.200Ft/év</b> és .hu <b>Domain  2.500 Ft - 3.000 Ft/ 2 év&nbsp;</b><br><br><br><b>Google AMP oldal készítése.</b> Accelerated Mobile Page (AMP) egy új technológia, aminek a Google áll a hátterében, segítségével <b>villámgyorsan &nbsp;</b>betöltődő mobil honlapot készíthetünk.<br><br><br><b>SEO</b>&nbsp;alap beállítások",
+          "text25": "<b>Maximum 15 aloldal készítése\n</b><br><b>(vagy modern egy oldalas weboldal készítése)</b><br>",
+          "text26": "Kapcsolatfelvételi űrlap készítése <br>(megadott e-mail címre)<br>",
+          "text27": "Honlap elhelyezése és beüzemelése a<br> tárhelyszolgáltatónál\n<br>",
+          "text28": "Látogatottsági statisztika (Google Analytics)\n<br><br><br><b>Business Logó készítése és </b><br><b>feltöltése ingyen\n<br></b><br><br><b>Google térkép</b> <br>használata útvonaltervezéssel\n<br><br><br><b>Click-to-call</b> <br>telefonszám elhelyezése (telefonról egy kattintással hívható)<br><br><br><b>Statikus weboldal</b> <br>(Ön nem tudja szerkeszteni, így nem kell félni, hogy valamit elront.)<br><br><br><b>Havonta korlátlan tartalom feltöltés&nbsp;</b><br><br><br><b>SSD Tárhely 1.200 Ft/ év</b>&nbsp;<br>.hu <b>Domain  1.800 Ft/ 2év</b><br><br><br><b>Google AMP oldal készítése.</b> Accelerated Mobile Page (AMP) egy új technológia, aminek a Google áll a hátterében, segítségével <b>villámgyorsan &nbsp;</b>betöltődő mobil honlapot készíthetünk.<br><br><br><b>SEO</b>&nbsp;alap beállítások<br><br><br><b>SSL</b> tanusítvány telepítése és beállítása<br>most <b>0 Ft</b>!",
           "text29": "Lorem ipsa, nobis.",
           "text311": "<span class=\"price\">39</span>",
           "text312": "<br>per Month",
@@ -970,7 +978,7 @@
             }
           },
           "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ELKÜLDÖM</a>",
-          "checkbox": "Elfogadom a feltételeket<br>",
+          "checkbox": "Elfogadom az <a href=\"adatvedelem.html\">adatvédelmi feltételeket.</a><br>",
           "_tags": [
             "Téma"
           ],
@@ -1033,7 +1041,7 @@
           "_name": "footer4",
           "_anchor": "footer4-14",
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\np {\n  color: #000;\n}\nB {\n  font-family: 'Montserrat', sans-serif;\n}\n",
-          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"27\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"adatvedelem.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
+          "_customHTML": "<footer class=\"mbr-small-footer mbr-section mbr-section-nopadding footer4\" data-rv-view=\"2\" style=\"background-color: rgb(255, 255, 255); padding-top: 1.75rem; padding-bottom: 1.75rem;\">\n    \n    <div class=\"container\">\n        <p class=\"text-xs-center mbr-editable-content\" code-editable-id=\"35\">Copyright (c) 2018 <strong>frankweb.hu</strong> | Weboldal készítés, gyorsan, olcsón.<br><a href=\"adatvedelem.html\" class=\"text-info\">Adatvédelmi irányelv</a></p>\n    </div>\n</footer>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true
@@ -1147,7 +1155,7 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption text-empty\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">frankweb.hu</a>",
+          "brand": "<a class=\"navbar-caption text-empty\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://frankweb.hu\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">frankweb.hu</a>",
           "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
           "_tags": [
             "Téma"
